@@ -296,3 +296,62 @@ Commits:
 
 Analiticas de Colaboración:
 ![Contributors](/assets/contributors.png)
+
+## 5.3. Validation Interviews
+
+#### Saludo y presentación
+
+Comenzamos con una introducción breve de los entrevistados para recordar quiénes son:
+
+1. ¿Cómo se llama?
+2. ¿Cuántos años tiene?
+3. ¿En qué distrito vive?
+
+#### Preguntas
+
+Estas preguntas nos ayudarán a saber cuál es la experiencia de usuario, si nuestro producto llenó las expectativas del usuario, y también saber las posibles mejoras, comentarios y quejas sobre nuestro producto.
+
+Promotor:
+
+1. ¿Entendiste rápidamente el propósito de **TocaAquí** al ver la landing page?
+
+2. ¿Te parece atractiva y clara la interfaz del sitio web?
+
+3. ¿Qué tan útil te resulta poder filtrar músicos o espacios por ubicación y género musical?
+
+4. ¿Contratarías (o te dejarías contratar) a través de una plataforma con contratos digitales?
+
+5. ¿Te inspira confianza el uso de pagos seguros mediante **escrow**?
+
+6. ¿Consideras útil tener una agenda digital y gestión logística dentro de la plataforma?
+
+7. ¿Qué tan importante es para ti la promoción automática de eventos en redes o medios?
+
+8. ¿Te parece relevante incluir evaluaciones post-evento para construir reputación?
+
+9. ¿Crees que **TocaAquí** puede ayudar a profesionalizar el circuito musical independiente?
+
+10. ¿Qué función agregarías o mejorarías en la plataforma para que se adapte mejor a tus necesidades?
+
+Artista:
+
+1. ¿Sientes que **TocaAquí** te ayuda a encontrar más oportunidades para tocar en vivo?
+
+2. ¿Qué tan fácil te resulta registrarte y crear tu perfil como artista?
+
+3. ¿Te parece útil tener un sistema donde los **venues** pueden contratarte directamente?
+
+4. ¿Te genera confianza saber que los pagos son a través de un sistema **escrow**?
+
+5. ¿Valoras tener contratos digitales para evitar malentendidos?
+
+6. ¿Te resulta útil llevar una agenda digital con tus fechas confirmadas?
+
+7. ¿Qué tan importante es para ti la posibilidad de recibir evaluaciones luego de tus presentaciones?
+
+8. ¿Sientes que **TocaAquí** te brinda herramientas para profesionalizar tu carrera?
+
+9. ¿Qué tanto valoras que **TocaAquí** promueva tus eventos automáticamente en redes o medios?
+
+10. ¿Qué función agregarías o mejorarías para que se adapte mejor a tu trabajo como artista?
+
