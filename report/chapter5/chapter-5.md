@@ -296,3 +296,83 @@ Commits:
 
 Analiticas de Colaboración:
 ![Contributors](/assets/contributors.png)
+
+
+# 5.2.3 Sprint 3
+
+#### 5.2.3.1. Spring Planning 3
+
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+En el Sprint 3, los principales aspectos considerados fueron la autenticación y gestión de usuarios (IAM), la gestión de eventos y postulaciones (Events), y la infraestructura compartida (Shared). A continuación, se presenta la matriz de liderazgo y colaboración del equipo para cada aspecto:
+
+| Team Member (Last Name, First Name)      | GitHub Username         | IAM (Auth & Users) | Events (Gestión de eventos) | Shared (Infraestructura) |
+|------------------------------------------|------------------------|--------------------|----------------------------|-------------------------|
+| Pereira, Fabrizzio                       | fabrizzoper            | L                  | C                          | L                       |
+| Antayhua Castillo, Oscar Josué           | OscarAntayhuaCastillo  | C                  | L                          | C                       |
+| Su Caletti, Eddo                         | Asalreon520            | C                  | C                          | C                       |
+| Llamccaya Arone, Juan Paul               | JuanPaulLla            | C                  | C                          | C                       |
+| Cabrera, Diego                           | omele7                 | C                  | C                          | C                       |
+
+L: Leader (Líder)  |  C: Collaborator (Colaborador)
+
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+**Objetivo del Sprint** 
+El objetivo principal de este Sprint es consolidar y finalizar las funcionalidades clave del backend de la plataforma TocaAquí, permitiendo a artistas y promotores gestionar eventos, postulaciones, invitaciones y contratos digitales de manera segura y eficiente. Durante este Sprint, se han implementado y probado todos los flujos principales de registro, autenticación, gestión de eventos y notificaciones, asegurando una experiencia robusta y lista para integración con el frontend.
+
+**Sprint Board**
+
+![Sprint Board Screenshot](../../assets/Sprint3-Kan.png)
+- **URL del Board:** [Enlace público a Jira](https://tocaqui.atlassian.net/jira/software/projects/KAN/list)
+
+**Tabla de Control de Estado para el Sprint**
+
+| User Story Id | User Story Title                                   | Task Id | Task Title                  | Description                                         | Estimation (Hours) | Assigned To         | Status |
+|---------------|-----------------------------------------------------|---------|-----------------------------|-----------------------------------------------------|--------------------|---------------------|--------|
+| US07          | Registro como artista en la plataforma              | T01     | Crear entidad Artista       | Implementar modelo y persistencia de artista        | 3                  | Fabrizzio Pereria   | Done   |
+| US07          | Registro como artista en la plataforma              | T02     | Endpoint de registro        | Crear endpoint para registro de artista             | 2                  | Fabrizzio Pereria   | Done   |
+| US14          | Registro como administrador de local                | T03     | Crear entidad Promotor      | Implementar modelo y persistencia de promotor       | 4                  | Fabrizzio Pereria   | Done   |
+| US14          | Registro como administrador de local                | T04     | Endpoint de registro        | Crear endpoint para registro de promotor            | 2                  | Fabrizzio Pereria   | Done   |
+| TS02          | Inicio de sesión mediante RESTful API               | T05     | Lógica de autenticación     | Implementar login y generación de token             | 3                  | Fabrizzio Pereria   | Done   |
+| US16          | Publicación de eventos musicales                    | T06     | Crear entidad Evento        | Implementar modelo y persistencia de evento         | 2                  | Oscar Antayhua      | Done   |
+| US16          | Publicación de eventos musicales                    | T07     | Endpoint de eventos         | Crear endpoint para crear y actualizar eventos      | 4                  | Oscar Antayhua      | Done   |
+| US09          | Búsqueda de eventos compatibles con mi perfil       | T08     | Listar eventos              | Endpoint para listar eventos disponibles            | 2                  | Oscar Antayhua      | Done   |
+| US10          | Postulación rápida a un evento desde la plataforma  | T09     | Crear entidad Postulación   | Implementar modelo y persistencia de postulación    | 3                  | Oscar Antayhua      | Done   |
+| US10          | Postulación rápida a un evento desde la plataforma  | T10     | Endpoint de postulación     | Crear endpoint para postularse a eventos            | 2                  | Oscar Antayhua      | Done   |
+| US17          | Revisión de postulaciones y selección de artista    | T11     | Listar postulaciones        | Endpoint para listar postulaciones de un evento     | 2                  | Oscar Antayhua      | Done   |
+| US15          | Gestión de postulaciones e invitaciones             | T12     | Crear entidad Invitación    | Implementar modelo y persistencia de invitación     | 3                  | Oscar Antayhua      | Done   |
+| US15          | Gestión de postulaciones e invitaciones             | T13     | Endpoint de invitaciones    | Crear endpoint para enviar invitaciones             | 2                  | Oscar Antayhua      | Done   |
+| US12          | Subida y validación del rider técnico               | T14     | Crear entidad Contrato      | Implementar modelo y persistencia de contrato       | 4                  | Oscar Antayhua      | Done   |
+| US12          | Subida y validación del rider técnico               | T15     | Endpoint de contratos       | Crear endpoint para firmar contratos digitales      | 2                  | Oscar Antayhua      | Done   |
+| US18          | Validación del rider técnico enviado por artista    | T16     | Lógica de notificaciones    | Implementar lógica para notificar cambios de estado | 2                  | Fabrizzio Pereria   | Done   |
+| US14          | Registro como administrador de local                | T17     | Endpoint de historial       | Crear endpoint para ver historial de eventos        | 3                  | Oscar Antayhua      | Done   |
+| US15          | Gestión de postulaciones e invitaciones             | T18     | Lógica de invitaciones      | Implementar lógica para aceptar/rechazar invitaciones| 2                 | Oscar Antayhua      | Done   |
+| US13          | Visualización de pagos recibidos y pendientes       | T19     | Endpoint de contratos firmados| Crear endpoint para listar contratos firmados    | 2                  | Oscar Antayhua      | Done   |
+| TS01          | Registro de usuario (artista o promotor) a través de un RESTful API | T20     | Middleware de autenticación | Proteger endpoints con validación de token          | 3                  | Fabrizzio Pereria   | Done   |
+| US08          | Acceso al dashboard personalizado de artista        | T21     | Endpoint de administración  | Crear endpoint para listar usuarios y eventos       | 2                  | Fabrizzio Pereria   | Done   |
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se lograron avances significativos en la implementación del backend de la plataforma, completando los módulos de autenticación, gestión de usuarios, eventos, postulaciones, invitaciones y contratos digitales. A continuación, se presenta la evidencia de los commits realizados, que reflejan el trabajo colaborativo y el cumplimiento de los objetivos planteados para este ciclo.
+
+| Repository                  | Branch                        | Commit Id | Commit Message           | Commit Message Body                | Commited on (Date) |
+|-----------------------------|-------------------------------|-----------|-------------------------|------------------------------------|--------------------|
+| CODENINJAS.TocaAqui.API/IAM | feature/IAM                   | 8298342   | merge (IAM)             | merged and fixed IAM bounded       | 2025-06-16         |
+| CODENINJAS.TocaAqui.API     | develop, origin/develop       | 0accbce   | feat(program)           | fixed create database              | 2025-06-16         |
+| CODENINJAS.TocaAqui.API     |                               | 795d8c0   | feat(program)           | fixed                              | 2025-06-16         |
+| CODENINJAS.TocaAqui.API     | origin/feature/events         | 8298342   | merge (IAM)             | merged and fixed IAM bounded       | 2025-06-16         |
+| CODENINJAS.TocaAqui.API     |                               | 26d8eee   | refactor(evets)         | refactored all bounded             | 2025-06-16         |
+| CODENINJAS.TocaAqui.API     |                               | ae16b09   | refactor(events)        | refactored events bounded          | 2025-06-12         |
+| CODENINJAS.TocaAqui.API     | origin/main, origin/HEAD, main| d070413   | refactor(http)          | refactored                         | 2025-06-11         |
+| CODENINJAS.TocaAqui.API     |                               | 51c80ed   | feat(http)              | added http                         | 2025-06-11         |
+| CODENINJAS.TocaAqui.API     |                               | 4eb111a   | feat(net8)              | eliminate unuse sln                | 2025-06-11         |
+| CODENINJAS.TocaAqui.API     |                               | 4489ec7   | feat(sln)               | eliminate unuse sln                | 2025-06-11         |
+| CODENINJAS.TocaAqui.API     |                               | 52cfd89   | refactor(name)          | named for the api refactored        | 2025-06-11         |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
