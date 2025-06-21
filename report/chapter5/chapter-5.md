@@ -55,7 +55,7 @@ El equipo aplica la estrategia GitFlow, que organiza el desarrollo con ramas esp
 
 Durante este primer Sprint, se realizó trabajo activo en ramas `feature/*`, que luego fueron integradas mediante `merge` hacia la rama `main` para el despliegue en GitHub Pages. La estructura de ramas puede verse directamente en el historial del repositorio.
 
-   ![Gitflow](/assets/gitflow.png)
+   ![Gitflow](../../assets/gitflow.png)
 
 
 Repositorio principal:  
@@ -292,7 +292,222 @@ Durante el desarrollo del Sprint 1, se evidenció una participación activa y di
 
 
 Commits:
-![Commits](/assets/commits.png)
+![Commits](../../assets/commits.png)
 
 Analiticas de Colaboración:
-![Contributors](/assets/contributors.png)
+![Contributors](../../assets/contributors.png)
+
+
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|----------------------------------|------------------------------------------------------------------------------|
+| Sprint Planning Background | |
+| Date | 05/05/2025 |
+| Time | 05:00 PM |
+| Location | Servidor de Discord del Equipo |
+| Prepared By | Oscar Antayhua |
+| Attendees (to planning meeting) | Oscar Antayhua / Juan Llamccaya / Nelson Pereira / Diego Cabrera / Eddo Su Caletti |
+| Sprint 2 Review Summary | Durante este sprint, el equipo se enfocó en el desarrollo de la aplicación web principal utilizando Vue.js y PrimeVue como biblioteca de componentes UI. Se implementó un backend simulado con JSON Server para el desarrollo rápido de prototipos. Se completaron las funcionalidades clave del dashboard, gestión de eventos, sistema de pagos y calificaciones. |
+| Sprint 2 Retrospective Summary | El equipo destacó la productividad alcanzada con Vue.js y la calidad de los componentes de PrimeVue. El uso de JSON Server facilitó el desarrollo del frontend sin dependencias de un backend real. Como puntos de mejora, se identificó la necesidad de mejorar la gestión del estado con Pinia y optimizar las llamadas a la API. |
+| Sprint Goal & User Stories | Desarrollar la primera versión de la aplicación web que permita a artistas y locales gestionar sus perfiles, eventos, pagos y calificaciones. Implementar la autenticación de usuarios, sistema de gestión de eventos, módulo de pagos y funcionalidades básicas de interacción entre artistas y locales utilizando Vue.js, PrimeVue y JSON Server como stack tecnológico. |
+| Sprint 2 Goal | Nuestro objetivo es implementar la primera versión funcional de la aplicación web que permita a los usuarios registrarse, gestionar sus perfiles, coordinar eventos y realizar seguimiento de pagos. La aplicación debe ofrecer una experiencia fluida y moderna utilizando Vue.js y PrimeVue, con datos simulados mediante JSON Server para facilitar el desarrollo y pruebas. |
+| Sprint 2 Velocity | 6 Velocity |
+| Sum of Story Points | 8 Story Points |
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member | GitHub Username | Frontend | Backend | UI/UX | Testing | Documentation |
+|------------|----------------|-----------|---------|-------|---------|---------------|
+| Nelson Pereira | fabrizzioper | C | L | C | C | C |
+| Oscar Antayhua | OscarAntayhuaCastillo | L | C | C | C | L |
+| Juan Llamccaya | JuanPaulLla | C | C | L | C | C |
+| Diego Cabrera | omele7 | C | C | C | L | C |
+| Eddo Su Caletti | Asalreon520 | C | C | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+| **User Story Id** | **User Story Title** | **Work-Item/Task Id** | **Work-Item/Task Title** | **Description** | **Estimation** | **Assigned To** | **Status** |
+|:-----------------:|:--------------------:|:---------------------:|:-----------------------:|:---------------:|:--------------:|:--------------:|:----------:|
+| US07 | Registro como artista en la plataforma | T01 | Implementar formulario de registro | Crear formulario con validaciones para registro de artistas con Vue.js y PrimeVue | 8h | Nelson Pereira | Done |
+| US08 | Acceso al dashboard personalizado de artista | T02 | Diseño y desarrollo del dashboard | Implementar vista principal con módulos de perfil, postulaciones, agenda y pagos | 10h | Oscar Antayhua | Done |
+| US09 | Búsqueda de eventos compatibles con mi perfil | T03 | Sistema de búsqueda y filtros | Desarrollar funcionalidad de búsqueda y filtrado de eventos por género y ubicación | 12h | Juan Llamccaya | Done |
+| US10 | Postulación rápida a un evento desde la plataforma | T04 | Proceso de postulación | Implementar flujo de postulación a eventos con confirmaciones | 8h | Diego Cabrera | Done |
+| US11 | Gestión y edición de mi perfil artístico | T05 | Editor de perfil | Crear interfaz para editar biografía, estilo musical y contenido multimedia | 6h | Eddo Su Caletti | Done |
+| US33 | Visualización de pagos recibidos y pendientes | T06 | Panel de pagos | Implementar vista de pagos con estados y detalles | 8h | Nelson Pereira | Done |
+| US34 | Visualización de agenda de eventos | T07 | Calendario de eventos | Desarrollar vista de agenda con eventos confirmados y estados | 10h | Oscar Antayhua | Done |
+| US27 | Visualización de próximos eventos agendados | T08 | Widget de eventos próximos | Crear componente de resumen de eventos en el dashboard | 6h | Juan Llamccaya | Done |
+| US28 | Visualización de pagos pendientes desde el dashboard | T09 | Widget de pagos pendientes | Implementar componente de resumen de pagos en el panel principal | 6h | Diego Cabrera | Done |
+| US29 | Acceso rápido a calificaciones recibidas | T10 | Sistema de calificaciones | Desarrollar módulo de visualización de calificaciones y reviews | 8h | Eddo Su Caletti | Done |
+
+
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+| Repository        | Branch | Commit Id | Commit Message                                                             | Commit Message Body (resumen)                                                  | Committed on  |
+|-------------------|--------|-----------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------|---------------|
+| TocaAqui-WebApp   | develop | 933ae7e   | fix(http): fixed                                                            | Corrección de errores en el módulo HTTP                                        | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 8293ae9   | feat(http): added json server multiple endpoints fix                        | Solución para manejar múltiples endpoints en JSON Server                       | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 0db86e3   | Merge branch 'feature/event-evaluation' into develop                        | Fusión de la rama feature/event-evaluation en develop                          | May 15, 2025  |
+| TocaAqui-WebApp   | develop | c358de9   | fix(db): fixed                                                              | Corrección de errores en la base de datos                                       | May 15, 2025  |
+| TocaAqui-WebApp   | develop | e2dbd5f   | Merge branch 'login' into develop                                           | Integración de la rama login en develop                                        | May 15, 2025  |
+| TocaAqui-WebApp   | develop | bdb2cac   | refactor(dashboard): refactor dashboard bounded context                     | Refactorización de dashboard en su contexto delimitado                         | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 03028f4   | feat(event): added rider document upload function                           | Función para subir documentos de riders en eventos                             | May 15, 2025  |
+| TocaAqui-WebApp   | develop | c0c85dc   | feat(evaluations): fixed the problem of adding evaluations to events        | Solución al problema de registro de evaluaciones en eventos                    | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 61c7b72   | fix(even-application): fixed post sign                                      | Corrección de errores en la firma de envíos de la aplicación de eventos         | May 15, 2025  |
+| TocaAqui-WebApp   | develop | ff60507   | feat(schedule): added i18n                                                  | Se añade internacionalización (i18n) en schedule                               | May 15, 2025  |
+| TocaAqui-WebApp   | develop | e5556d9   | fix(index): fix div id app                                                  | Corrección de ID de div en la aplicación                                       | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 5447a33   | feat(index): added comment                                                  | Comentarios añadidos en index para mejorar la legibilidad                      | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 3269301   | Fix rollup native module issue - clean install                              | Corrección de errores de módulos nativos en Rollup con reinstalación limpia    | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 68ba287   | feat(core): added pnpm                                                      | Integración de pnpm como gestor de paquetes                                    | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 0dfe5b0   | fix(node-modules): Fix rollup native module issue - reinstall node_modules  | Reinstalación de node_modules para corregir problemas con Rollup                | May 15, 2025  |
+| TocaAqui-WebApp   | develop | ff4bfec   | fix(evaluation): fixed route                                                | Corrección de la ruta de evaluaciones                                          | May 15, 2025  |
+| TocaAqui-WebApp   | develop | f43b1fe   | Merge branch 'feature/payment-processing' into develop                      | Fusión de la rama feature/payment-processing en develop                        | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 6a65d7a   | fix(evaluation): ixed                                                       | Corrección de errores en evaluaciones (typo "ixed")                            | May 15, 2025  |
+| TocaAqui-WebApp   | develop | b9de9c4   | feat(db): updated database                                                  | Actualización de la base de datos                                              | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 4e2e810   | feat(event): updated calendar                                               | Actualización del componente de calendario de eventos                          | May 15, 2025  |
+| TocaAqui-WebApp   | develop | a8163f5   | faet(events-card-schedule): updated                                         | Corrección y actualización del módulo card-schedule de eventos                 | May 15, 2025  |
+| TocaAqui-WebApp   | develop | bd0086c   | feat(i18n): updated                                                         | Actualización de textos e internacionalización                                | May 15, 2025  |
+| TocaAqui-WebApp   | develop | 92ebb40   | feat(dashboard): updated                                                    | Mejoras y actualizaciones visuales en el dashboard                             | May 15, 2025  |
+TocaAqui-WebApp | develop | 85fa1bf | Merge branch 'feature/event-evaluation' into develop | Fusión de la rama feature/event-evaluation en develop | May 14, 2025
+TocaAqui-WebApp | develop | 5029090 | feat:added changes to compile | Ajustes para compilar correctamente | May 14, 2025
+TocaAqui-WebApp | develop | 29fc6c0 | feat:added evaluation content of bounded context | Agrega contenido de evaluación en bounded context | May 14, 2025
+TocaAqui-WebApp | develop | 3b8a1b6 | feat(profile): added the profile section and his editing functionality | Sección de perfil y su funcionalidad de edición | May 14, 2025
+TocaAqui-WebApp | develop | 207edb0 | Merge branch 'develop' into feature/payment-processing | Sincronización de develop en feature/payment-processing | May 14, 2025
+TocaAqui-WebApp | develop | 64c8614 | fix(payment.service): fix http request | Corrección en el servicio de pagos para las solicitudes http | May 14, 2025
+TocaAqui-WebApp | develop | 2694dc3 | feat(inxed.js): added new routes | Agrega nuevas rutas en inxed.js | May 14, 2025
+TocaAqui-WebApp | develop | 043e0fc | feat(contrac-dialog): added and setup component | Configuración inicial del componente de diálogo de contrato | May 14, 2025
+TocaAqui-WebApp | develop | 7b2a77a | feat(shared-components): added shared components | Se agregan componentes compartidos al proyecto | May 14, 2025
+TocaAqui-WebApp | develop | 3530b69 | feat(event): added new information to the event | Se añade nueva información a los eventos | May 14, 2025
+TocaAqui-WebApp | develop | 4aa8f85 | feat(payment): added payment bounded context | Implementación del bounded context para pagos | May 14, 2025
+TocaAqui-WebApp | develop | 3473bc3 | refactor(shared-components): remove useless components | Eliminación de componentes innecesarios | May 14, 2025
+TocaAqui-WebApp | develop | a6897b8 | feat(tracking): added tacking component | Se añade el componente de tracking | May 14, 2025
+TocaAqui-WebApp | develop | 251cd88 | fix(dashboard): fdixed primevue components called | Corrección de llamadas a componentes de PrimeVue en dashboard | May 14, 2025
+TocaAqui-WebApp | develop | d91b7af | feat(main.js): added new components | Nuevos componentes añadidos en main.js | May 14, 2025
+TocaAqui-WebApp | develop | ce89e73 | fix(app): fixed components routes | Corrección de rutas de componentes en la app | May 14, 2025
+TocaAqui-WebApp | develop | 6c90a14 | feat(db): added new endpoints | Nuevos endpoints añadidos a la base de datos | May 14, 2025
+TocaAqui-WebApp | develop | d8f4327 | feat(i18n): added information to translate | Información adicional para traducción | May 14, 2025
+TocaAqui-WebApp | develop | 48029d5 | feat:added some changes to compile project | Cambios para mejorar la compilación del proyecto | May 14, 2025
+TocaAqui-WebApp | develop | 48c57d5 | Merge remote-tracking branch 'origin/develop' into develop | Actualización desde origin/develop | May 14, 2025
+TocaAqui-WebApp | develop | 6fd29d6 | feat:added some changes to compile project | Mejoras para asegurar la compilación | May 14, 2025
+TocaAqui-WebApp | develop | 460dc14 | feat(db.json):feat added events data | Datos de eventos añadidos en db.json | May 14, 2025
+TocaAqui-WebApp | develop | eb5020c | Merge remote-tracking branch 'origin/feature/user-portal' into develop | Fusión de la rama feature/user-portal en develop | May 14, 2025
+TocaAqui-WebApp | develop | 6f827b6 | feat(added): added dependencies | Se agregan dependencias al proyecto | May 14, 2025
+TocaAqui-WebApp | develop | cdd14c0 | feat(payments): add the payments section of the artist | Añadida sección de pagos para artistas | May 14, 2025
+TocaAqui-WebApp | develop | 38fe1c4 | feat(login): fixed the register section and fixed the styles | Corrección de la sección de registro y estilos | May 14, 2025
+TocaAqui-WebApp | develop | cd549f8 | feat(i18n): added new information | Nuevos textos añadidos para internacionalización | May 14, 2025
+TocaAqui-WebApp | develop | cab8872 | feat(dashboard): added events info to dashboard | Información de eventos añadida al dashboard | May 14, 2025
+TocaAqui-WebApp | develop | 283deab | feat(event): added information and contract | Se añaden detalles e información contractual | May 14, 2025
+TocaAqui-WebApp | develop | eaac858 | feat(db): added events application database | Base de datos para gestión de eventos añadida | May 14, 2025
+TocaAqui-WebApp | develop | 59560d6 | feat(app): added pinia | Integración de Pinia para gestión de estado | May 14, 2025
+TocaAqui-WebApp | develop | 2319bcf | fix(login): login fixed | Corrección de errores en el login | May 14, 2025
+TocaAqui-WebApp | develop | 9279308 | fix(primevue-theme): fixed primevue theme | Ajustes en el tema visual de PrimeVue | May 14, 2025
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+Durante el Sprint 2, hemos desarrollado la primera versión de la aplicación web utilizando Vue.js, PrimeVue y JSON Server. A continuación, se presentan las User Stories implementadas y su evidencia:
+
+| **ID** | **User Story** | **Evidencia en Aplicación** |
+|:------:|:--------------:|:-----------------------------:|
+| US07 | Registro como artista en la plataforma | Formulario de registro implementado con validaciones y selección de rol |
+| US08 | Acceso al dashboard personalizado de artista | Panel principal con vista general de actividades y métricas |
+| US09 | Búsqueda de eventos compatibles con mi perfil | Sistema de búsqueda con filtros por género y ubicación |
+| US10 | Postulación rápida a un evento desde la plataforma | Proceso simplificado de postulación a eventos |
+| US11 | Gestión y edición de mi perfil artístico | Editor de perfil con campos para biografía y multimedia |
+| US33 | Visualización de pagos recibidos y pendientes | Panel detallado de estados de pagos y transacciones |
+| US34 | Visualización de agenda de eventos | Calendario interactivo con eventos confirmados |
+| US27 | Visualización de próximos eventos agendados | Widget de resumen de próximos shows en dashboard |
+| US28 | Visualización de pagos pendientes desde el dashboard | Indicadores de pagos pendientes y estados |
+| US29 | Acceso rápido a calificaciones recibidas | Sistema de visualización de reviews y ratings |
+
+**Dashboard Principal del Artista**  
+Panel centralizado que muestra las funcionalidades principales implementadas para los artistas.
+
+![Aplicacion](../../assets/Aplicación-dashboard.png)
+
+**Características implementadas:**
+
+1. **Sistema de Autenticación**
+   - Registro de usuarios con roles específicos
+   - Login seguro con validaciones
+   - Recuperación de contraseña
+
+2. **Dashboard Personalizado**
+   - Vista general de actividades
+   - Métricas importantes
+   - Accesos rápidos a funciones principales
+
+3. **Gestión de Eventos**
+   - Búsqueda avanzada de eventos
+   - Filtros por género y ubicación
+   - Sistema de postulaciones
+
+4. **Sistema de Pagos**
+   - Visualización de estados de pago
+   - Historial de transacciones
+   - Indicadores de pagos pendientes
+
+5. **Agenda y Calendario**
+   - Vista de eventos confirmados
+   - Organización temporal de shows
+   - Estados de contratos y pagos
+
+6. **Perfiles y Evaluaciones**
+   - Editor de perfil artístico
+   - Sistema de calificaciones
+   - Historial de reviews
+
+**Stack Tecnológico Utilizado:**
+- Frontend: Vue.js 3 + PrimeVue
+- Backend Simulado: JSON Server
+- Estilos: CSS personalizado
+- Gestión de Estado: Vue Router + Pinia
+- Despliegue: Vercel
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+**API Endpoints implementados con JSON Server:**
+
+```json
+{
+  "users": "/api/users",
+  "events": "/api/events",
+  "payments": "/api/payments",
+  "evaluation": "/api/evaluation"
+}
+```
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, se realizó el despliegue de la Web Application utilizando **Vercel**.
+![Aplicacion](../../assets/deploy-app.png)
+
+
+
+- **Repositorio:** [Web Application](https://github.com/1ASI0730-2510-4370-G1-TocaAqui/Landing-Page)
+- **URL de producción:** [https://tocaaqui-frontend.vercel.app/](https://tocaaqui-frontend.vercel.app/)
+- **Branch desplegado:** `main`
+
+
+![Aplicacion](../../assets/Aplicación-dashboard.png)
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint 2
+
+Durante el Sprint 2, el equipo trabajó intensamente en la implementación de la aplicación web con Vue.js, PrimeVue y JSON Server. La carga de trabajo se concentró en la gestión de eventos, evaluaciones, pagos, así como en la integración de componentes y solución de errores. Se mantuvo la estrategia GitFlow con integración continua hacia la rama develop.
+
+| **Integrante**              | **Commits** | **Líneas añadidas** | **Líneas eliminadas** | **Áreas de contribución principales**                                                                 |
+|-----------------------------|-------------|--------------------:|----------------------:|-----------------------------------------------------------------------------------------------------|
+| Oscar Antayhua Castillo     | 48          | 4100                | 1500                  | Gestión de eventos, pagos, i18n, dashboard, fixes de build, refactors y despliegue                    |
+| Diego Cabrera (omele7)      | 12          | 800                 | 200                   | Evaluaciones, login, perfil, fixes en flujo de usuario y registro                                     |
+| Fabrizzio Pereira (fabrizzioper) | 10     | 700                 | 100                   | Sidebar, rutas, navegación, estructura base de componentes                                            |
+| JuanPaulLla                 | 4           | 300                 | 20                    | Ajustes menores en estilos, cambios de textos, fixes en layouts                                       |
+| Asalreon520                 | 1           | 100                 | 0                     | Corrección en componente de pagos, ajustes mínimos                                                   |
+
+
+Commits:
+
+![team-collaborate-commits](../../assets/team-is-2.png)
