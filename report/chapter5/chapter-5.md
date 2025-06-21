@@ -515,12 +515,30 @@ Commits:
 ![Contributors](/assets/contributors.png)
 
 
-# 5.3.3 Sprint 3
+# 5.2.3 Sprint 3
 
-#### 5.3.3.1. Spring Planning 3
+#### 5.2.3.1. Spring Planning 3
+
+En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración del backend de la aplicación **TocaAquí**. A continuación, se presentan los detalles de la reunión:
 
 
-#### 5.3.3.2. Aspect Leaders and Collaborators
+| **Sprint #**                    | Sprint 3                                                                                           |
+|--------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                     |
+| **Date**                       | 2025-06-20                                                                                          |
+| **Time**                       | 07:30 PM                                                                                            |
+| **Location**                   | Google Meet (Reunión virtual)                                                                       |
+| **Prepared By**                | Juan Paul Llamccaya Arone                                                                           |
+| **Attendees**                  | Juan Paul Llamccaya / Oscar Antayhua / Diego Cabrera / Nelson Pereira / Eddo Su Caletti            |
+| **Sprint 2 – Review Summary**  | Durante el Sprint 2 se logró completar la integración de los primeros controladores y modelos para los módulos base de autenticación (IAM) y evaluaciones. Se recibieron comentarios positivos del equipo respecto a la estructura del proyecto y se validó el uso de agregados y comandos. El Product Owner resaltó la correcta separación de capas y recomendó priorizar endpoints de eventos para el siguiente ciclo. |
+| **Sprint 2 – Retrospective Summary** | El equipo manifestó satisfacción con la organización modular del backend, pero también se mencionó la necesidad de mejorar la documentación de endpoints y pruebas automatizadas. Se destacó como acierto el uso de reuniones de sincronización interdiarias y como mejora pendiente la asignación anticipada de tareas para facilitar paralelización del trabajo. |
+| **Sprint Goal & User Stories** |                                                                                                     |
+| **Sprint 3 Goal**              | Implementar y desplegar funcionalidades CRUD para Evaluaciones, IAM, Perfiles y Eventos en el backend de TocaAquí. |
+| **Sprint 3 Velocity**          | 60 Story Points                                                                                     |
+| **Sum of Story Points**        | 4 + 3 + 2 + 3 + 2 + 2 + 3 + 3 + 2 + 3 + 2 + 2 + 5 + 6 + 3 + 2 = **47**                                |
+
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
 
 En el Sprint 3, los principales aspectos considerados fueron la autenticación y gestión de usuarios (IAM), la gestión de eventos y postulaciones (Events), y la infraestructura compartida (Shared). A continuación, se presenta la matriz de liderazgo y colaboración del equipo para cada aspecto:
 
@@ -536,7 +554,7 @@ L: Leader (Líder)  |  C: Collaborator (Colaborador)
 
 
 
-#### 5.3.3.3. Sprint Backlog 3
+#### 5.2.3.3. Sprint Backlog 3
 
 **Objetivo del Sprint** 
 El objetivo principal de este Sprint es consolidar y finalizar las funcionalidades clave del backend de la plataforma TocaAquí, permitiendo a artistas y promotores gestionar eventos, postulaciones, invitaciones y contratos digitales de manera segura y eficiente. Durante este Sprint, se han implementado y probado todos los flujos principales de registro, autenticación, gestión de eventos y notificaciones, asegurando una experiencia robusta y lista para integración con el frontend.
@@ -591,5 +609,554 @@ Durante el Sprint 3 se lograron avances significativos en la implementación del
 | CODENINJAS.TocaAqui.API     |                               | 4489ec7   | feat(sln)               | eliminate unuse sln                | 2025-06-11         |
 | CODENINJAS.TocaAqui.API     |                               | 52cfd89   | refactor(name)          | named for the api refactored        | 2025-06-11         |
 
-#### 5.3.3.5. Execution Evidence for Sprint Review
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+En este Sprint se ha completado exitosamente la implementación y documentación de la **API REST TocaAqui**, logrando un sistema robusto y completamente funcional para la gestión de eventos musicales. Los principales hitos alcanzados incluyen:
+
+###  **Logros Técnicos Principales:**
+
+- **API REST Completa:** Implementación de 25+ endpoints distribuidos en 5 módulos principales
+- **Documentación OpenAPI:** Integración completa de Swagger/OpenAPI con anotaciones detalladas
+- **Arquitectura DDD:** Implementación de Domain-Driven Design con separación clara de capas
+- **Autenticación JWT:** Sistema de autenticación y autorización completamente funcional
+- **Base de Datos:** Estructura de datos MySQL con Entity Framework Core
+- **CORS Configuration:** Configuración para integración con frontend
+- **Swagger en Producción:** Documentación accesible en ambiente de producción
+
+## Screenshots de las Principales Vistas Implementadas
+
+### Vista de Documentación Swagger
+
+La documentación interactiva de la API está completamente implementada y accesible tanto en desarrollo como en producción:
+
+![Swagger](../../assets/D-14.png)
+
+
+### Estructura de Base de Datos
+
+La base de datos MySQL ha sido implementada siguiendo las mejores prácticas de diseño, con tablas normalizadas y relaciones bien definidas:
+
+![db](../../assets/base%20de%20datos.png)
+
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### Documentación de Web Services - API TocaAqui
+
+### Introducción
+
+En este Sprint se ha logrado implementar y documentar completamente la API REST de TocaAqui utilizando OpenAPI/Swagger. La API incluye endpoints para la gestión de eventos musicales, usuarios/autenticación, aplicaciones a eventos, invitaciones y pagos. Todos los endpoints están documentados con anotaciones Swagger y están disponibles tanto en desarrollo como en producción.
+
+## URL del Repositorio y Commits
+
+- **Repositorio:** `CODENINJAS.TocaAqui.API`
+- **Branch:** `feature/develop`
+- **Commits relacionados con documentación:**
+  - Implementación de Swagger y documentación OpenAPI
+  - Habilitación de Swagger en producción
+  - Configuración de anotaciones SwaggerOperation
+
+## Tabla de Endpoints Documentados
+
+| Módulo | Endpoint | Verbo HTTP | Descripción | Parámetros | Autenticación |
+|--------|----------|------------|-------------|------------|---------------|
+| **IAM** | `/api/v1/users/sign-up` | POST | Registro de usuario | Body: RegisterUserResource | No |
+| **IAM** | `/api/v1/users/sign-in` | POST | Inicio de sesión | Body: LoginUserResource | No |
+| **IAM** | `/api/v1/users` | GET | Obtener todos los usuarios | - | Sí |
+| **IAM** | `/api/v1/users/{id}` | GET | Obtener usuario por ID | Path: id (int) | Sí |
+| **Events** | `/api/v1/events` | GET | Obtener todos los eventos | - | No |
+| **Events** | `/api/v1/events/{id}` | GET | Obtener evento por ID | Path: id (int) | No |
+| **Events** | `/api/v1/events/promoter/{promoterId}` | GET | Eventos por promotor | Path: promoterId (int) | No |
+| **Events** | `/api/v1/events` | POST | Crear evento | Body: CreateEventResource | No |
+| **Events** | `/api/v1/events/{id}` | DELETE | Eliminar evento | Path: id (int) | No |
+| **Event Applicants** | `/api/v1/eventapplicants` | POST | Aplicar a evento | Body: CreateEventApplicantResource | No |
+| **Event Applicants** | `/api/v1/eventapplicants/{id}` | GET | Obtener aplicación por ID | Path: id (int) | No |
+| **Event Applicants** | `/api/v1/eventapplicants/event/{eventId}` | GET | Aplicaciones por evento | Path: eventId (int) | No |
+| **Event Applicants** | `/api/v1/eventapplicants/user/{userId}` | GET | Aplicaciones por usuario | Path: userId (int) | No |
+| **Event Applicants** | `/api/v1/eventapplicants/event/{eventId}/user/{userId}` | GET | Aplicación específica | Path: eventId, userId (int) | No |
+| **Event Applicants** | `/api/v1/eventapplicants/{id}/status` | PATCH | Actualizar estado aplicación | Path: id (int), Body: UpdateEventApplicantStatusResource | No |
+| **Event Applicants** | `/api/v1/eventapplicants/{id}` | DELETE | Eliminar aplicación | Path: id (int) | No |
+| **Invitations** | `/api/v1/invitations` | POST | Crear invitación | Body: CreateInvitationResource | No |
+| **Invitations** | `/api/v1/invitations/{id}` | GET | Obtener invitación por ID | Path: id (int) | No |
+| **Invitations** | `/api/v1/invitations/event/{eventId}` | GET | Invitaciones por evento | Path: eventId (int) | No |
+| **Invitations** | `/api/v1/invitations/artist/{artistId}` | GET | Invitaciones por artista | Path: artistId (int) | No |
+| **Invitations** | `/api/v1/invitations/promoter/{promoterId}` | GET | Invitaciones por promotor | Path: promoterId (int) | No |
+| **Invitations** | `/api/v1/invitations/{id}/respond` | PATCH | Responder invitación | Path: id (int), Body: UpdateEventApplicantStatusResource | No |
+| **Invitations** | `/api/v1/invitations/{id}` | DELETE | Eliminar invitación | Path: id (int) | No |
+| **Payments** | `/api/v1/payments` | POST | Crear pago | Body: CreatePaymentResource | No |
+| **Payments** | `/api/v1/payments/{id}` | GET | Obtener pago por ID | Path: id (int) | No |
+| **Payments** | `/api/v1/payments` | GET | Obtener todos los pagos | - | No |
+| **Payments** | `/api/v1/payments/user/{userId}` | GET | Pagos por usuario | Path: userId (int), Query: userRole | No |
+| **Payments** | `/api/v1/payments/{id}/status` | PATCH | Actualizar estado pago | Path: id (int), Body: UpdatePaymentStatusResource | No |
+
+## Detalles de Endpoints por Módulo
+
+### 1. Módulo IAM (Identity and Access Management)
+
+#### POST `/api/v1/users/sign-up`
+**Descripción:** Registro de nuevo usuario en la plataforma
+
+**Request Body:**
+```json
+{
+  "name": "Juan Pérez",
+  "email": "juan@ejemplo.com",
+  "password": "password123",
+  "role": "musico",
+  "genre": "rock",
+  "type": "banda",
+  "description": "Banda de rock alternativo",
+  "imageUrl": "https://ejemplo.com/imagen.jpg"
+}
+```
+
+**Response (200):**
+```json
+{
+  "message": "User created successfully"
+}
+```
+
+#### POST `/api/v1/users/sign-in`
+**Descripción:** Inicio de sesión de usuario
+
+**Request Body:**
+```json
+{
+  "email": "juan@ejemplo.com",
+  "password": "password123"
+}
+```
+
+**Response (200):**
+```json
+{
+  "user": {
+    "id": 1,
+    "email": "juan@ejemplo.com",
+    "name": "Juan Pérez",
+    "role": "musico",
+    "genre": "rock",
+    "type": "banda",
+    "description": "Banda de rock alternativo",
+    "imageUrl": "https://ejemplo.com/imagen.jpg"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+### 2. Módulo Events
+
+#### GET `/api/v1/events`
+**Descripción:** Obtiene todos los eventos disponibles
+
+**Response (200):**
+```json
+[
+  {
+    "id": 1,
+    "promoterId": 2,
+    "name": "Concierto de Rock",
+    "date": "2024-12-15T20:00:00Z",
+    "time": "20:00",
+    "location": "Teatro Nacional",
+    "status": "published",
+    "capacity": 500,
+    "payment": 1500.00,
+    "genre": "rock",
+    "description": "Gran concierto de rock"
+  }
+]
+```
+
+#### POST `/api/v1/events`
+**Descripción:** Crea un nuevo evento
+
+**Request Body:**
+```json
+{
+  "promoterId": 2,
+  "name": "Concierto Jazz",
+  "date": "2024-12-20T19:00:00Z",
+  "time": "19:00",
+  "publishDate": "2024-11-15T10:00:00Z",
+  "location": "Club de Jazz",
+  "imageUrl": "https://ejemplo.com/jazz.jpg",
+  "status": "draft",
+  "capacity": 200,
+  "adminName": "Carlos Admin",
+  "adminContact": "carlos@ejemplo.com",
+  "requirements": "Instrumentos propios",
+  "description": "Noche de jazz íntimo",
+  "payment": 800.00,
+  "duration": 120,
+  "genre": "jazz",
+  "equipment": "Sistema de sonido incluido"
+}
+```
+
+### 3. Módulo Payments
+
+#### POST `/api/v1/payments`
+**Descripción:** Crea un nuevo pago
+
+**Request Body:**
+```json
+{
+  "eventId": 1,
+  "musicianId": 3,
+  "promoterId": 2,
+  "amount": 1500.00,
+  "paymentMethod": "bank_transfer",
+  "bankAccountNumber": "1234567890",
+  "bankName": "Banco de Crédito",
+  "accountType": "savings",
+  "description": "Pago por presentación en evento"
+}
+```
+
+**Response (201):**
+```json
+{
+  "id": 1,
+  "eventId": 1,
+  "musicianId": 3,
+  "promoterId": 2,
+  "amount": 1500.00,
+  "currency": "PEN",
+  "status": "Pending",
+  "paymentMethod": "BankTransfer",
+  "description": "Pago por presentación en evento",
+  "createdAt": "2024-11-15T10:30:00Z",
+  "updatedAt": "2024-11-15T10:30:00Z"
+}
+```
+
+#### PATCH `/api/v1/payments/{id}/status`
+**Descripción:** Actualiza el estado de un pago
+
+**Request Body:**
+```json
+{
+  "status": "Completed",
+  "comment": "Pago procesado exitosamente"
+}
+```
+
+## Códigos de Respuesta HTTP
+
+| Código | Descripción |
+|--------|-------------|
+| 200 | OK - Operación exitosa |
+| 201 | Created - Recurso creado exitosamente |
+| 400 | Bad Request - Error en los datos enviados |
+| 401 | Unauthorized - No autorizado |
+| 404 | Not Found - Recurso no encontrado |
+| 500 | Internal Server Error - Error interno del servidor |
+
+## Configuración de Swagger
+
+La documentación Swagger está disponible en:
+- **Desarrollo:** `https://localhost:7000/`
+- **Producción:** `http://tocaqui-platform.runasp.net/index.html/`
+
+### Configuración en Program.cs
+```csharp
+// Swagger habilitado también en producción
+app.UseSwagger();
+app.UseSwaggerUI(ui =>
+{
+    ui.SwaggerEndpoint("/swagger/v1/swagger.json", "CODENINJAS.TocaAqui.API v1");
+    ui.RoutePrefix = string.Empty;
+});
+```
+
+## Autenticación JWT
+
+Los endpoints marcados con "Sí" en autenticación requieren el header:
+```
+Authorization: Bearer [JWT_TOKEN]
+```
+
+El token se obtiene mediante el endpoint `/api/v1/users/sign-in`.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+A continuación, se detalla la configuración para el despliegue de cada componente de la solución, especificando los pasos requeridos para que, partiendo de los repositorios de código fuente, se realice exitosamente la publicación de los productos digitales correspondientes, tales como la página de aterrizaje (Landing Page), los servicios web y las aplicaciones web del frontend.
+
+Despliegue del Web Service:
+
+Para el despliegue del Web Service, se utilizó la plataforma MonsterASP
+
+![Sprint 3](../../assets/D-1.png)
+
+1-. Primero debemos de registrarnos para hacer uso de la plataforma.
+
+![Sprint 3](../../assets/D-2.png)
+
+2-. Una vez ingresados creamos un nuevo website.
+
+![Sprint 3](../../assets/D-3.png)
+
+3-. Luego en el panel de control, nos dirigimos al apartado deploy y en WebDeploy Access lo colocamos en "Enable" y descargarmos el perfil de publicación
+
+![Sprint 3](../../assets/D-8.png)
+
+
+4-. Para utilizar el perfil debemos primero cargar nuestro proyecto dentro de Visual Studio, una vez cargado el proyecto, le damos click derecho sobre este y luego a "Publicar"
+
+![Sprint 3](../../assets/D-10.png)
+
+6-. Seleccionamos la opción de "Importar Pefil"
+
+![Sprint 3](../../assets/D-11.png)
+
+7-. Seleccionamos el perfil que descargamos en el panel de control de MonsterAsp"
+
+![Sprint 3](../../assets/D-12.png)
+
+8-. Con esto ya tenemos desplegado nuestro Web Service
+
+![Sprint 3](../../assets/D-14.png)
+
+Link del Web Service desplegado: http://tocaqui-platform.runasp.net/index.html
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Para llevar a cabo los commits de nuestro Sprint, utilizamos las herramientas Rider y WebStorm, además de Git. Uno de los miembros del equipo efectuó un commit inicial para crear el repositorio; posteriormente, clonamos dicho repositorio mediante Git para trabajar localmente. A partir de ahí, realizamos las modificaciones necesarias en WebStorm o Rider, generamos las ramas correspondientes para cada cambio y, finalmente, efectuamos los commits, los cuales deben ser revisados dentro del repositorio en GitHub. Asimismo, empleamos Jira como herramienta de gestión para organizar y dar seguimiento a las tareas.
+
+![Sprint Insight](../../assets/insight-tb2.png)
+- **URL del Board:** [Enlace a Jira](https://tocaqui.atlassian.net/jira/software/projects/KAN/list)
+
+### 5.3 Validation Interviews
+#### 5.3.1 Diseño de entrevistas
+
+**Objetivo de la entrevista:**
+
+Validar la usabilidad y efectividad de la landing page de TocaAquí y de los flujos de usuario (user flows) asegurando que cada flujo sea intuitivo, claro y funcional para los usuarios y su interaccion con la plataforma.
+
+
+#### Saludo y presentación
+
+Comenzamos con una introducción breve de los entrevistados para recordar quiénes son:
+
+1. ¿Cómo se llama?
+2. ¿Cuántos años tiene?
+3. ¿En qué distrito vive?
+
+#### Preguntas
+
+Estas preguntas nos ayudarán a saber cuál es la experiencia de usuario, si nuestro producto llenó las expectativas del usuario, y también saber las posibles mejoras, comentarios y quejas sobre nuestro producto.
+
+Promotor:
+
+1. ¿Entendiste rápidamente el propósito de **TocaAquí** al ver la landing page?
+
+2. ¿Te parece atractiva y clara la interfaz del sitio web?
+
+3. ¿Qué tan útil te resulta poder filtrar músicos o espacios por ubicación y género musical?
+
+4. ¿Contratarías (o te dejarías contratar) a través de una plataforma con contratos digitales?
+
+5. ¿Te inspira confianza el uso de pagos seguros mediante **escrow**?
+
+6. ¿Consideras útil tener una agenda digital y gestión logística dentro de la plataforma?
+
+7. ¿Qué tan importante es para ti la promoción automática de eventos en redes o medios?
+
+8. ¿Te parece relevante incluir evaluaciones post-evento para construir reputación?
+
+9. ¿Crees que **TocaAquí** puede ayudar a profesionalizar el circuito musical independiente?
+
+10. ¿Qué función agregarías o mejorarías en la plataforma para que se adapte mejor a tus necesidades?
+
+Artista:
+
+1. ¿Sientes que **TocaAquí** te ayuda a encontrar más oportunidades para tocar en vivo?
+
+2. ¿Qué tan fácil te resulta registrarte y crear tu perfil como artista?
+
+3. ¿Te parece útil tener un sistema donde los **venues** pueden contratarte directamente?
+
+4. ¿Te genera confianza saber que los pagos son a través de un sistema **escrow**?
+
+5. ¿Valoras tener contratos digitales para evitar malentendidos?
+
+6. ¿Te resulta útil llevar una agenda digital con tus fechas confirmadas?
+
+7. ¿Qué tan importante es para ti la posibilidad de recibir evaluaciones luego de tus presentaciones?
+
+8. ¿Sientes que **TocaAquí** te brinda herramientas para profesionalizar tu carrera?
+
+9. ¿Qué tanto valoras que **TocaAquí** promueva tus eventos automáticamente en redes o medios?
+
+10. ¿Qué función agregarías o mejorarías para que se adapte mejor a tu trabajo como artista?
+### 5.3.2. Registro de Entrevistas.
+  
+A continuación presentamos los resultados de las entrevistas de validación realizadas a los musicos independientes y promotores, nuestros segmentos objetivos.
+
+### Segmento : Promotores
+**Entrevista 1**    
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>David Angel Fernandez Torres</td></tr>
+    <tr><td>Edad</td><td>19 años</td></tr>
+    <tr><td>Distrito</td><td>San Miguel</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>00:00</td></tr>
+    <tr><td>Duración de la entrevista</td><td>16:01</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/epromo1.png" alt=" EntrevistaP1"></td></tr>
+    <tr><td>Resumen</td><td>David se dio cuenta de que en Tocaaquí conecta a los músicos con los lugares y destaca su explicación e interfaz funcional. Las búsquedas filtran la ubicación y el género, los contratos digitales, los pagos seguros a través de la transacción y el programa de logística integrada. Para mejorar la reputación, considere automáticamente la promoción en redes y evaluaciones después de las cuentas. Él cree que la plataforma está profesionalizada por el esquema independiente y propone agregar eventos de cooperación e integración con WhatsApp o telegrama para facilitar el contro.</td></tr>  
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 2**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Diego Luis Ramirez Cerna</td></tr>
+    <tr><td>Edad</td><td>20 años</td></tr>
+    <tr><td>Distrito</td><td>Villa María del Triunfo</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>16:01</td></tr>
+    <tr><td>Duración de la entrevista</td><td>19:11</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/epromo2.png" alt="EntrevistaP2"></td></tr>
+    <tr><td>Resumen</td><td>Diego Ramírez es administrador y productor de eventos en el club El Refugio de Villa Maria del Triunfo. Con más de diez años en la industria musical, comenta que desde que comenzó a usar TocaAquí ha optimizado mucho la gestión de shows y la contratación de artistas. Le resulta muy práctico el filtro por género y ubicación, que le permite encontrar bandas que encajan con la identidad del local. Destaca la confianza que le da el sistema de pagos escrow y la formalidad de los contratos digitales, que simplifican los procesos legales. La agenda digital integrada le ayuda a organizar fechas y coordinar la logística sin contratiempos. Además, la promoción automática de eventos en redes ha incrementado notablemente la asistencia. Como mejora, Diego propone implementar un chat directo para una comunicación más fluida con los músicos.</td>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 3**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Andrea Elizabeth Santur Tello</td></tr>
+    <tr><td>Edad</td><td>19 años</td></tr>
+    <tr><td>Distrito</td><td>Los Olivos</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>19:11</td></tr>
+    <tr><td>Duración de la entrevista</td><td>25:04</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/epromo3.png" alt="EntrevistaP3"></td></tr>
+    <tr><td>Resumen</td><td>Andrea apreció que nuestra plataforma se conectaba a los artistas y consideraba una interfaz clara y profesional. Destaca la utilidad de los filtros por ubicación y de género y evalúa los acuerdos digitales sobre su apoyo legal. Él confía completamente en los pagos con el acuerdo y está considerando mucho la agenda de logística integrada. Consulte la publicidad automática en redes y cuentas en cuentas si son objetivos. Él cree que la plataforma está profesionalizada por el esquema independiente y propone agregar estados financieros a los perfiles de eventos y equipos de colaboración.</td>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+### Segmento : Artistas
+
+**Entrevista 1** 
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Giancarlo Ventura Saldaña</td></tr>
+    <tr><td>Edad</td><td>20 años</td></tr>
+    <tr><td>Distrito</td><td>Surco</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>25:04</td></tr>
+    <tr><td>Duración de la entrevista</td><td>30:17</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/eart1.png" alt="eart1"></td></tr>
+    <tr><td>Resumen</td><td>Giancarlo es músico independiente, vocalista y guitarrista de una banda de rock alternativo radicada en Miraflores. Con más de 6 años en la escena local, suele presentarse varias veces al mes en bares, eventos culturales y festivales pequeños. Aunque ha logrado establecer contactos por redes sociales, siente que el proceso de gestión sigue siendo muy informal: falta de acuerdos claros, pagos inciertos y poca organización en la logística. Por eso valora que plataformas como TocaAquí ofrezcan contratos digitales, seguridad en los pagos mediante escrow y una agenda profesional que le permita enfocarse en lo creativo sin preocuparse por los detalles administrativos.</td>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 2**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Carlos Gonsales Meneses</td></tr>
+    <tr><td>Edad</td><td>23 años</td></tr>
+    <tr><td>Distrito</td><td>Los Olivos</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>30:17</td></tr>
+    <tr><td>Duración de la entrevista</td><td>35:06</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/eart2.png" alt="eart2"></td></tr>
+    <tr><td>Resumen</td><td>Carlos Gonsales es guitarrista y vocalista de una banda de rock alternativo con base en Miraflores. Con seis años en la escena local, ha recorrido bares y festivales del circuito independiente. Desde que se unió a TocaAquí, siente que sus oportunidades para tocar en vivo han aumentado notablemente. Destaca lo simple que fue crear su perfil y lo útil que resulta recibir propuestas directas de los venues. Le da confianza saber que los pagos están asegurados por escrow y que puede formalizar sus presentaciones con contratos digitales. También valora la agenda integrada para organizar sus fechas, y siente que las evaluaciones y la difusión automática de sus shows han mejorado su imagen profesional. Para él, una función para conectar con otros músicos y acceder a estadísticas sería el siguiente paso ideal.</td></tr>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 3**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Juan Pablo Torres Solis</td></tr>
+    <tr><td>Edad</td><td>25 años</td></tr>
+    <tr><td>Distrito</td><td>Molino</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>35:06</td></tr>
+    <tr><td>Duración de la entrevista</td><td>37:43</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/eart3.png" alt="eart3"></td></tr>
+    <tr><td>Resumen</td><td>Juan Pablo Torres es guitarrista y vocalista de una banda de indie rock con base en Barranco. Con varios años de experiencia en la escena local, ha notado que desde que se unió a TocaAquí sus oportunidades para tocar en vivo han aumentado considerablemente. Destaca lo sencillo que fue registrarse y crear su perfil, así como la utilidad de recibir propuestas directas de los venues. Le da confianza el sistema de pagos mediante escrow y la formalidad que ofrecen los contratos digitales. Además, valora mucho la agenda digital integrada para organizar sus fechas y la posibilidad de recibir evaluaciones que le ayudan a mejorar y construir su reputación. También aprecia la promoción automática de sus eventos en redes sociales, que ha ampliado su público. Como sugerencia, le gustaría que la plataforma incluyera una función para conectar con otros músicos y acceder a estadísticas detalladas sobre sus presentaciones.</td></tr>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+### 5.3.3. Evaluaciones según herurísticas.
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Aplicaciones Open Source  
+**SECCIÓN**: [4334]  
+**PROFESORES**: Todos  
+**AUDITOR**: Grupo TocaAquí  
+**CLIENTE(S)**: Todos
+
+**SITE o APP A EVALUAR**: TocaAquí 
+
+**TAREAS A EVALUAR**
+
+1. Visualización de beneficios y funcionalidades de la plataforma
+2. Acceso a la sección de contacto
+3. Navegación desde el menú
+4. Acceso a los botones de registro por tipo de usuario
+5. Cambio de idioma
+6. Visualización de testimonios u opiniones
+
+
+
+**EVALUACIÓN SEGÚN HEURÍSTICAS**
+
+| # | Heurística | Observación | Severidad (0-4) | Recomendación |
+|---|------------|-------------|----------------|---------------|
+| 1 | Visibilidad del estado del sistema | No hay indicador visual que confirme que se ha accedido a una sección distinta (por ejemplo, About o Contacto). | 2 | Añadir efectos de scroll o resaltado del menú activo. |
+| 2 | Correspondencia entre el sistema y el mundo real | El lenguaje utilizado en botones es claro y amigable ("Únete como artista/promotor"). | 0 | Ninguna. Excelente elección de lenguaje. |
+| 3 | Control y libertad del usuario | No hay opción para retroceder fácilmente a la parte superior desde secciones inferiores. | 1 | Añadir un botón “Volver arriba” o scroll automático al hacer clic en el logo. |
+| 4 | Consistencia y estándares | Buen uso de íconos y colores consistentes en toda la página. | 0 | Ninguna. |
+| 5 | Reconocimiento antes que recuerdo | Secciones como “Equipo” y “Beneficios” están claramente rotuladas. | 0 | Ninguna. |
+| 6 | Flexibilidad y eficiencia de uso | El sitio está adaptado a dispositivos móviles (responsive). | 1 | Optimizar el menú para que sea tipo "hamburguesa" en móvil. |
+| 7 | Diseño estético y minimalista | El diseño es limpio y moderno, no sobrecarga al usuario. | 0 | Ninguna. |
+| 8 | Ayuda y documentación | No hay sección de ayuda visible o guía para nuevos usuarios. | 2 | Incluir una sección tipo “¿Cómo funciona?” con pasos o video explicativo.. |
 
