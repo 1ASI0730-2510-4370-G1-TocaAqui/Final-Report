@@ -297,7 +297,13 @@ Commits:
 Analiticas de Colaboración:
 ![Contributors](/assets/contributors.png)
 
-## 5.3. Validation Interviews
+### 5.3 Validation Interviews
+#### 5.3.1 Diseño de entrevistas
+
+**Objetivo de la entrevista:**
+
+Validar la usabilidad y efectividad de la landing page de TocaAquí y de los flujos de usuario (user flows) asegurando que cada flujo sea intuitivo, claro y funcional para los usuarios y su interaccion con la plataforma.
+
 
 #### Saludo y presentación
 
@@ -354,4 +360,169 @@ Artista:
 9. ¿Qué tanto valoras que **TocaAquí** promueva tus eventos automáticamente en redes o medios?
 
 10. ¿Qué función agregarías o mejorarías para que se adapte mejor a tu trabajo como artista?
+### 5.3.2. Registro de Entrevistas.
+  
+A continuación presentamos los resultados de las entrevistas de validación realizadas a los musicos independientes y promotores, nuestros segmentos objetivos.
+
+### Segmento : Promotores
+**Entrevista 1**    
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>David Angel Fernandez Torres</td></tr>
+    <tr><td>Edad</td><td>19 años</td></tr>
+    <tr><td>Distrito</td><td>San Miguel</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>00:00</td></tr>
+    <tr><td>Duración de la entrevista</td><td>16:01</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/epromo1.png" alt=" EntrevistaP1"></td></tr>
+    <tr><td>Resumen</td><td>David se dio cuenta de que en Tocaaquí conecta a los músicos con los lugares y destaca su explicación e interfaz funcional. Las búsquedas filtran la ubicación y el género, los contratos digitales, los pagos seguros a través de la transacción y el programa de logística integrada. Para mejorar la reputación, considere automáticamente la promoción en redes y evaluaciones después de las cuentas. Él cree que la plataforma está profesionalizada por el esquema independiente y propone agregar eventos de cooperación e integración con WhatsApp o telegrama para facilitar el contro.</td></tr>  
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 2**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Diego Luis Ramirez Cerna</td></tr>
+    <tr><td>Edad</td><td>20 años</td></tr>
+    <tr><td>Distrito</td><td>Villa María del Triunfo</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>16:01</td></tr>
+    <tr><td>Duración de la entrevista</td><td>19:11</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/epromo2.png" alt="EntrevistaP2"></td></tr>
+    <tr><td>Resumen</td><td>Diego Ramírez es administrador y productor de eventos en el club El Refugio de Villa Maria del Triunfo. Con más de diez años en la industria musical, comenta que desde que comenzó a usar TocaAquí ha optimizado mucho la gestión de shows y la contratación de artistas. Le resulta muy práctico el filtro por género y ubicación, que le permite encontrar bandas que encajan con la identidad del local. Destaca la confianza que le da el sistema de pagos escrow y la formalidad de los contratos digitales, que simplifican los procesos legales. La agenda digital integrada le ayuda a organizar fechas y coordinar la logística sin contratiempos. Además, la promoción automática de eventos en redes ha incrementado notablemente la asistencia. Como mejora, Diego propone implementar un chat directo para una comunicación más fluida con los músicos.</td>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 3**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Andrea Elizabeth Santur Tello</td></tr>
+    <tr><td>Edad</td><td>19 años</td></tr>
+    <tr><td>Distrito</td><td>Los Olivos</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>19:11</td></tr>
+    <tr><td>Duración de la entrevista</td><td>25:04</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/epromo3.png" alt="EntrevistaP3"></td></tr>
+    <tr><td>Resumen</td><td>Andrea apreció que nuestra plataforma se conectaba a los artistas y consideraba una interfaz clara y profesional. Destaca la utilidad de los filtros por ubicación y de género y evalúa los acuerdos digitales sobre su apoyo legal. Él confía completamente en los pagos con el acuerdo y está considerando mucho la agenda de logística integrada. Consulte la publicidad automática en redes y cuentas en cuentas si son objetivos. Él cree que la plataforma está profesionalizada por el esquema independiente y propone agregar estados financieros a los perfiles de eventos y equipos de colaboración.</td>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+### Segmento : Artistas
+
+**Entrevista 1** 
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Giancarlo Ventura Saldaña</td></tr>
+    <tr><td>Edad</td><td>20 años</td></tr>
+    <tr><td>Distrito</td><td>Surco</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>25:04</td></tr>
+    <tr><td>Duración de la entrevista</td><td>30:17</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/eart1.png" alt="eart1"></td></tr>
+    <tr><td>Resumen</td><td>Giancarlo es músico independiente, vocalista y guitarrista de una banda de rock alternativo radicada en Miraflores. Con más de 6 años en la escena local, suele presentarse varias veces al mes en bares, eventos culturales y festivales pequeños. Aunque ha logrado establecer contactos por redes sociales, siente que el proceso de gestión sigue siendo muy informal: falta de acuerdos claros, pagos inciertos y poca organización en la logística. Por eso valora que plataformas como TocaAquí ofrezcan contratos digitales, seguridad en los pagos mediante escrow y una agenda profesional que le permita enfocarse en lo creativo sin preocuparse por los detalles administrativos.</td>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 2**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Carlos Gonsales Meneses</td></tr>
+    <tr><td>Edad</td><td>23 años</td></tr>
+    <tr><td>Distrito</td><td>Los Olivos</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>30:17</td></tr>
+    <tr><td>Duración de la entrevista</td><td>35:06</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/eart2.png" alt="eart2"></td></tr>
+    <tr><td>Resumen</td><td>Carlos Gonsales es guitarrista y vocalista de una banda de rock alternativo con base en Miraflores. Con seis años en la escena local, ha recorrido bares y festivales del circuito independiente. Desde que se unió a TocaAquí, siente que sus oportunidades para tocar en vivo han aumentado notablemente. Destaca lo simple que fue crear su perfil y lo útil que resulta recibir propuestas directas de los venues. Le da confianza saber que los pagos están asegurados por escrow y que puede formalizar sus presentaciones con contratos digitales. También valora la agenda integrada para organizar sus fechas, y siente que las evaluaciones y la difusión automática de sus shows han mejorado su imagen profesional. Para él, una función para conectar con otros músicos y acceder a estadísticas sería el siguiente paso ideal.</td></tr>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+**Entrevista 3**
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th><strong>Dato</strong></th>
+      <th><strong>Información</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nombre completo</td><td>Juan Pablo Torres Solis</td></tr>
+    <tr><td>Edad</td><td>25 años</td></tr>
+    <tr><td>Distrito</td><td>Molino</td></tr>
+    <tr><td>Inicio de la entrevista</td><td>35:06</td></tr>
+    <tr><td>Duración de la entrevista</td><td>37:43</td></tr>
+    <tr><td>Foto captura</td><td><img src="../../assets/eart3.png" alt="eart3"></td></tr>
+    <tr><td>Resumen</td><td>Juan Pablo Torres es guitarrista y vocalista de una banda de indie rock con base en Barranco. Con varios años de experiencia en la escena local, ha notado que desde que se unió a TocaAquí sus oportunidades para tocar en vivo han aumentado considerablemente. Destaca lo sencillo que fue registrarse y crear su perfil, así como la utilidad de recibir propuestas directas de los venues. Le da confianza el sistema de pagos mediante escrow y la formalidad que ofrecen los contratos digitales. Además, valora mucho la agenda digital integrada para organizar sus fechas y la posibilidad de recibir evaluaciones que le ayudan a mejorar y construir su reputación. También aprecia la promoción automática de sus eventos en redes sociales, que ha ampliado su público. Como sugerencia, le gustaría que la plataforma incluyera una función para conectar con otros músicos y acceder a estadísticas detalladas sobre sus presentaciones.</td></tr>
+  </tbody>
+</table>
+[upc-pre-202510-1asi0730-4370-tocaaqui-validation-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b293_upc_edu_pe/ESylgHCxgspAoJeHo1y54aYB4YbwqzrMT2flqJ041k94DA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JqegTj)
+
+### 5.3.3. Evaluaciones según herurísticas.
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Aplicaciones Open Source  
+**SECCIÓN**: [4334]  
+**PROFESORES**: Todos  
+**AUDITOR**: Grupo TocaAquí  
+**CLIENTE(S)**: Todos
+
+**SITE o APP A EVALUAR**: TocaAquí 
+
+**TAREAS A EVALUAR**
+
+1. Visualización de beneficios y funcionalidades de la plataforma
+2. Acceso a la sección de contacto
+3. Navegación desde el menú
+4. Acceso a los botones de registro por tipo de usuario
+5. Cambio de idioma
+6. Visualización de testimonios u opiniones
+
+
+
+**EVALUACIÓN SEGÚN HEURÍSTICAS**
+
+| # | Heurística | Observación | Severidad (0-4) | Recomendación |
+|---|------------|-------------|----------------|---------------|
+| 1 | Visibilidad del estado del sistema | No hay indicador visual que confirme que se ha accedido a una sección distinta (por ejemplo, About o Contacto). | 2 | Añadir efectos de scroll o resaltado del menú activo. |
+| 2 | Correspondencia entre el sistema y el mundo real | El lenguaje utilizado en botones es claro y amigable ("Únete como artista/promotor"). | 0 | Ninguna. Excelente elección de lenguaje. |
+| 3 | Control y libertad del usuario | No hay opción para retroceder fácilmente a la parte superior desde secciones inferiores. | 1 | Añadir un botón “Volver arriba” o scroll automático al hacer clic en el logo. |
+| 4 | Consistencia y estándares | Buen uso de íconos y colores consistentes en toda la página. | 0 | Ninguna. |
+| 5 | Reconocimiento antes que recuerdo | Secciones como “Equipo” y “Beneficios” están claramente rotuladas. | 0 | Ninguna. |
+| 6 | Flexibilidad y eficiencia de uso | El sitio está adaptado a dispositivos móviles (responsive). | 1 | Optimizar el menú para que sea tipo "hamburguesa" en móvil. |
+| 7 | Diseño estético y minimalista | El diseño es limpio y moderno, no sobrecarga al usuario. | 0 | Ninguna. |
+| 8 | Ayuda y documentación | No hay sección de ayuda visible o guía para nuevos usuarios. | 2 | Incluir una sección tipo “¿Cómo funciona?” con pasos o video explicativo. |
 
