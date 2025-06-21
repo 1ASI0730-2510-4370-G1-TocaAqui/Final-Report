@@ -515,12 +515,12 @@ Commits:
 ![Contributors](/assets/contributors.png)
 
 
-# 5.2.3 Sprint 3
+# 5.3.3 Sprint 3
 
-#### 5.2.3.1. Spring Planning 3
+#### 5.3.3.1. Spring Planning 3
 
 
-#### 5.2.3.2. Aspect Leaders and Collaborators
+#### 5.3.3.2. Aspect Leaders and Collaborators
 
 En el Sprint 3, los principales aspectos considerados fueron la autenticación y gestión de usuarios (IAM), la gestión de eventos y postulaciones (Events), y la infraestructura compartida (Shared). A continuación, se presenta la matriz de liderazgo y colaboración del equipo para cada aspecto:
 
@@ -536,7 +536,7 @@ L: Leader (Líder)  |  C: Collaborator (Colaborador)
 
 
 
-#### 5.2.3.3. Sprint Backlog 3
+#### 5.3.3.3. Sprint Backlog 3
 
 **Objetivo del Sprint** 
 El objetivo principal de este Sprint es consolidar y finalizar las funcionalidades clave del backend de la plataforma TocaAquí, permitiendo a artistas y promotores gestionar eventos, postulaciones, invitaciones y contratos digitales de manera segura y eficiente. Durante este Sprint, se han implementado y probado todos los flujos principales de registro, autenticación, gestión de eventos y notificaciones, asegurando una experiencia robusta y lista para integración con el frontend.
@@ -573,7 +573,7 @@ El objetivo principal de este Sprint es consolidar y finalizar las funcionalidad
 | US08          | Acceso al dashboard personalizado de artista        | T21     | Endpoint de administración  | Crear endpoint para listar usuarios y eventos       | 2                  | Fabrizzio Pereria   | Done   |
 
 
-#### 5.2.3.4. Development Evidence for Sprint Review
+#### 5.3.3.4. Development Evidence for Sprint Review
 
 Durante el Sprint 3 se lograron avances significativos en la implementación del backend de la plataforma, completando los módulos de autenticación, gestión de usuarios, eventos, postulaciones, invitaciones y contratos digitales. A continuación, se presenta la evidencia de los commits realizados, que reflejan el trabajo colaborativo y el cumplimiento de los objetivos planteados para este ciclo.
 
@@ -591,5 +591,5 @@ Durante el Sprint 3 se lograron avances significativos en la implementación del
 | CODENINJAS.TocaAqui.API     |                               | 4489ec7   | feat(sln)               | eliminate unuse sln                | 2025-06-11         |
 | CODENINJAS.TocaAqui.API     |                               | 52cfd89   | refactor(name)          | named for the api refactored        | 2025-06-11         |
 
-#### 5.2.3.5. Execution Evidence for Sprint Review
+#### 5.3.3.5. Execution Evidence for Sprint Review
 
