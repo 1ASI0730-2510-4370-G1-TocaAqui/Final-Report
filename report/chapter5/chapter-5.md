@@ -297,6 +297,29 @@ Commits:
 Analiticas de Colaboración:
 ![Contributors](/assets/contributors.png)
 
+### 5.2.3.1. Sprint Planning 3
+
+En el Sprint Planning 3, se llevó a cabo una sesión de planificación para la elaboración del backend de la aplicación **TocaAquí**. A continuación, se presentan los detalles de la reunión:
+
+
+| **Sprint #**                    | Sprint 3                                                                                           |
+|--------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                     |
+| **Date**                       | 2025-06-20                                                                                          |
+| **Time**                       | 07:30 PM                                                                                            |
+| **Location**                   | Google Meet (Reunión virtual)                                                                       |
+| **Prepared By**                | Juan Paul Llamccaya Arone                                                                           |
+| **Attendees**                  | Juan Paul Llamccaya / Oscar Antayhua / Diego Cabrera / Nelson Pereira / Eddo Su Caletti            |
+| **Sprint 2 – Review Summary**  | Durante el Sprint 2 se logró completar la integración de los primeros controladores y modelos para los módulos base de autenticación (IAM) y evaluaciones. Se recibieron comentarios positivos del equipo respecto a la estructura del proyecto y se validó el uso de agregados y comandos. El Product Owner resaltó la correcta separación de capas y recomendó priorizar endpoints de eventos para el siguiente ciclo. |
+| **Sprint 2 – Retrospective Summary** | El equipo manifestó satisfacción con la organización modular del backend, pero también se mencionó la necesidad de mejorar la documentación de endpoints y pruebas automatizadas. Se destacó como acierto el uso de reuniones de sincronización interdiarias y como mejora pendiente la asignación anticipada de tareas para facilitar paralelización del trabajo. |
+| **Sprint Goal & User Stories** |                                                                                                     |
+| **Sprint 3 Goal**              | Implementar y desplegar funcionalidades CRUD para Evaluaciones, IAM, Perfiles y Eventos en el backend de TocaAquí. |
+| **Sprint 3 Velocity**          | 60 Story Points                                                                                     |
+| **Sum of Story Points**        | 4 + 3 + 2 + 3 + 2 + 2 + 3 + 3 + 2 + 3 + 2 + 2 + 5 + 6 + 3 + 2 = **47**                                |
+
+
+
+
 ### 5.3 Validation Interviews
 #### 5.3.1 Diseño de entrevistas
 
