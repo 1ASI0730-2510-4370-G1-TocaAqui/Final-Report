@@ -1889,7 +1889,11 @@ Una vez configurado, GitHub genera automáticamente la URL pública del sitio, q
 | US05 | Opción de navegación entre secciones | T05 | Implementación de navegación | Programar menú de navegación funcional con anclas internas | 4h | Oscar Antayhua | Done |
 | US06 | Formulario de contacto funcional | T06 | Desarrollo de formulario de contacto | Crear y validar formulario de contacto en HTML, CSS y JavaScript | 5h | Diego Cabrera | Done |
 
+<p align="center">
+  <img src="../../assets/Sprint%20Backlog%201%20-%20Toca%20Aqu%C3%AD.png" width="100%" alt="Sprint Backlog 1 - Toca Aquí" />
+</p>
 
+**Link del Trello:** [TRELLO](https://trello.com/invite/b/686a4574fd55725ae274994f/ATTI5828612c851b1c4d3cad5be1aec581dbDA340428/sprint-backlog-1-toca-aqui)
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
