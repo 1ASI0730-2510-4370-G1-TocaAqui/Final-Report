@@ -1546,15 +1546,16 @@ Prototipo de la aplicación web TocaAquí en Figma: [Prototipo de la aplicación
 ## 4.6. Domain-Driven Software Architecture.
 ## 4.6.1. Software Architecture Context Diagram.
 
-![Context_diagram](../../assets/structurizr-Context.png)
+![Context_diagram](/assets/Software%20Architecture%20Context%20Diagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
-![Container_diagram](../../assets/structurizr-TocaAqui_Containers.png)
+![Container_diagram](/assets/Software%20Architecture%20Container%20Diagrams.png)
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
-![component_diagram](../../assets/component-diagram.png)
+![component_diagram](/assets/Software%20Architecture%20Components%20Diagrams.png)
+
 
 
 ## 4.7. Software Object-Oriented Design.
