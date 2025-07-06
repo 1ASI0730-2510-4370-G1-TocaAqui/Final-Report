@@ -955,6 +955,7 @@ En el Sprint 4, los principales aspectos considerados fueron:
 - **Payments (Pagos):** Implementación y validación de endpoints de pagos.
 - **Shared (Infraestructura):** Infraestructura compartida, despliegue de base de datos y soporte transversal.
 
+#### 5.2.4.2. Aspect Leaders and Collaborators
 
 | Team Member (Last Name, First Name)      | GitHub Username         | IAM (Auth & Users) | Events (Gestión de eventos) | Payments (Pagos) | Shared (Infraestructura) |
 |------------------------------------------|------------------------|--------------------|----------------------------|------------------|-------------------------|
@@ -967,7 +968,181 @@ En el Sprint 4, los principales aspectos considerados fueron:
 **Leyenda:**  
 L: Leader (Líder)  |  C: Collaborator (Colaborador)
 
+#### 5.2.4.3. Sprint Backlog 4.
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 1</strong> </td>
+  </tr>
 
+  <tr>
+    <td colspan="2"> <strong>User Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US20</td>
+    <td rowspan="2">Evaluación post-show</td>
+    <td>UT-001</td>
+    <td>Entidad Evaluation</td>
+    <td>Crear clase aggregate `Evaluation` con todos sus campos y constructor</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">Juan Paul Llamccaya</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>UT-002</td>
+    <td>Enums de evaluación</td>
+    <td>Crear enums `EEvaluationType` y `EEvaluationStatus`</td>
+  </tr>
+
+  <tr>
+    <td>US08</td>
+    <td>Dashboard de artista</td>
+    <td>UT-003</td>
+    <td>CommandService</td>
+    <td>Implementar `EvaluationCommandService` con método para crear evaluaciones</td>
+    <td>3</td>
+    <td>Eddo Su Caletti</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US29</td>
+    <td>Calificaciones en panel</td>
+    <td>UT-004</td>
+    <td>QueryService</td>
+    <td>Implementar `EvaluationQueryService` para obtener evaluaciones y promedios</td>
+    <td>3</td>
+    <td>Eddo Su Caletti</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US33</td>
+    <td>Visualización de pagos</td>
+    <td>UT-005</td>
+    <td>Repositorio Evaluation</td>
+    <td>Crear `EvaluationRepository` con persistencia simulada</td>
+    <td>2</td>
+    <td>Oscar Antayhua</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US10</td>
+    <td>Postulación a eventos</td>
+    <td>UT-006</td>
+    <td>Controlador Evaluations</td>
+    <td>Implementar `EvaluationsController` con endpoints GET y POST</td>
+    <td>3</td>
+    <td>Oscar Antayhua</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US14</td>
+    <td>Registro promotor/local</td>
+    <td>UT-007</td>
+    <td>DTO CreateEvaluation</td>
+    <td>Crear recurso REST de entrada `CreateEvaluationResource`</td>
+    <td>1</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US13</td>
+    <td>Historial de pagos</td>
+    <td>UT-008</td>
+    <td>DTO EvaluationResource</td>
+    <td>Crear recurso REST de salida `EvaluationResource`</td>
+    <td>1</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US35</td>
+    <td>Estado del contrato</td>
+    <td>UT-009</td>
+    <td>Assembler de evaluación</td>
+    <td>Crear `EvaluationResourceFromEntityAssembler` para mapear entidad a recurso</td>
+    <td>1</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US06</td>
+    <td>Selección de tipo de usuario</td>
+    <td>UT-010</td>
+    <td>AppDbContext configurado</td>
+    <td>Configurar `DbSet<Evaluation>` y conversiones JSON para checklist</td>
+    <td>4</td>
+    <td>Diego Cabrera</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US17</td>
+    <td rowspan="2">Revisión de postulaciones</td>
+    <td>UT-011</td>
+    <td>Modificar controlador de invitaciones</td>
+    <td>Validar entidades reales y crear comando completo</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">Juan Paul Llamccaya</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>UT-012</td>
+    <td>Actualizar DTO de invitación</td>
+    <td>Incluir nombres de artista, promotor y evento</td>
+  </tr>
+
+  <tr>
+    <td>US15</td>
+    <td>Dashboard del local</td>
+    <td>UT-013</td>
+    <td>Assembler de invitaciones</td>
+    <td>Adaptar `InvitationResourceFromEntityAssembler` a nuevos campos</td>
+    <td>1</td>
+    <td>Diego Cabrera</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US04</td>
+    <td>Versión en inglés</td>
+    <td>UT-014</td>
+    <td>Crear archivo MSDeploy</td>
+    <td>Configurar `.pubxml` para publicar en servidor externo</td>
+    <td>2</td>
+    <td>Eddo Su Caletti</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US32</td>
+    <td>Inicio de sesión</td>
+    <td>UT-015</td>
+    <td>Actualizar cadena de conexión</td>
+    <td>Modificar `appsettings.json` para usar base de datos Railway</td>
+    <td>1</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ### 5.3 Validation Interviews
 #### 5.3.1 Diseño de entrevistas
