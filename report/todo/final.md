@@ -2063,6 +2063,11 @@ Analiticas de Colaboración:
 
 
 
+<p align="center">
+  <img src="../../assets/Sprint Backlog 2 - Toca Aquí.png" width="100%" alt="Sprint Backlog 2 - Toca Aquí" />
+</p>
+
+**Link del Trello:** [TRELLO](https://trello.com/invite/b/686a479ac18d55ba12025a01/ATTIf987b77b0106f5d59ca865e51214940833BF2C73/sprint-backlog-2-toca-aqui)
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
