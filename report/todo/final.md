@@ -1599,7 +1599,7 @@ IPaymentAdapter: define la abstracción para el procesamiento de pagos, permitie
 Relación entre clases
 Se modelan relaciones de herencia, asociación y uso entre entidades, promoviendo una arquitectura clara, modular y alineada con los principios de responsabilidad única y bajo acoplamiento.
 
-![Class Diargam](../../assets/Class_Diagram.png)
+![Class Diargam](../../assets/ClassDiagram.png)
 
 ### 4.7.2. Class Dictionary
 
