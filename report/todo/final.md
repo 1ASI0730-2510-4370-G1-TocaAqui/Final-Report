@@ -1556,6 +1556,14 @@ Prototipo de la aplicación web TocaAquí en Figma: [Prototipo de la aplicación
 
 ![component_diagram](/assets/Software%20Architecture%20Components%20Diagrams.png)
 
+**IAM Context**
+![iam_context_diagram](/assets/IAMContext.png)
+
+**Payment Context**
+![payment_context_diagram](/assets/PaytmenContext.png)
+
+**Event Context**
+![event_context_diagram](/assets/EventContext.png)
 
 
 ## 4.7. Software Object-Oriented Design.
