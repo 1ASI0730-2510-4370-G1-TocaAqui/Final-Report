@@ -949,7 +949,23 @@ Para llevar a cabo los commits de nuestro Sprint, utilizamos las herramientas Ri
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
+En el Sprint 4, los principales aspectos considerados fueron:
+- **IAM (Auth & Users):** Autenticación y gestión de usuarios.
+- **Events (Gestión de eventos):** Implementación y validación de endpoints de eventos.
+- **Payments (Pagos):** Implementación y validación de endpoints de pagos.
+- **Shared (Infraestructura):** Infraestructura compartida, despliegue de base de datos y soporte transversal.
 
+
+| Team Member (Last Name, First Name)      | GitHub Username         | IAM (Auth & Users) | Events (Gestión de eventos) | Payments (Pagos) | Shared (Infraestructura) |
+|------------------------------------------|------------------------|--------------------|----------------------------|------------------|-------------------------|
+| Pereira Vasquez, Nelson Fabrizzio        | fabrizzoper            | L                  | C                          | C                | C                       |
+| Antayhua Castillo, Oscar Josué           | OscarAntayhuaCastillo  | C                  | L                          | C                | L                       |
+| Su Caletti, Eddo                         | Asalreon520            | C                  | C                          | C                | C                       |
+| Llamccaya Arone, Juan Paul               | JuanPaulLla            | C                  | C                          | C                | C                       |
+| Cabrera Buitron, Diego Ivan              | omele7                 | C                  | C                          | L                | C                       |
+
+**Leyenda:**  
+L: Leader (Líder)  |  C: Collaborator (Colaborador)
 
 
 
