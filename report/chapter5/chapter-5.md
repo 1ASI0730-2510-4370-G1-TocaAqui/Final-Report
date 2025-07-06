@@ -515,7 +515,7 @@ Commits:
 ![Contributors](/assets/contributors.png)
 
 
-# 5.2.3 Sprint 3
+### 5.2.3 Sprint 3
 
 #### 5.2.3.1. Spring Planning 3
 
@@ -614,7 +614,7 @@ Durante el Sprint 3 se lograron avances significativos en la implementación del
 
 En este Sprint se ha completado exitosamente la implementación y documentación de la **API REST TocaAqui**, logrando un sistema robusto y completamente funcional para la gestión de eventos musicales. Los principales hitos alcanzados incluyen:
 
-###  **Logros Técnicos Principales:**
+****Logros Técnicos Principales:****
 
 - **API REST Completa:** Implementación de 25+ endpoints distribuidos en 5 módulos principales
 - **Documentación OpenAPI:** Integración completa de Swagger/OpenAPI con anotaciones detalladas
@@ -624,16 +624,16 @@ En este Sprint se ha completado exitosamente la implementación y documentación
 - **CORS Configuration:** Configuración para integración con frontend
 - **Swagger en Producción:** Documentación accesible en ambiente de producción
 
-## Screenshots de las Principales Vistas Implementadas
+**Screenshots de las Principales Vistas Implementadas**
 
-### Vista de Documentación Swagger
+**Vista de Documentación Swagger**
 
 La documentación interactiva de la API está completamente implementada y accesible tanto en desarrollo como en producción:
 
 ![Swagger](../../assets/D-14.png)
 
 
-### Estructura de Base de Datos
+**Estructura de Base de Datos**
 
 La base de datos MySQL ha sido implementada siguiendo las mejores prácticas de diseño, con tablas normalizadas y relaciones bien definidas:
 
@@ -644,13 +644,13 @@ La base de datos MySQL ha sido implementada siguiendo las mejores prácticas de 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-#### Documentación de Web Services - API TocaAqui
+**Documentación de Web Services - API TocaAqui**
 
-### Introducción
+**Introducción**
 
 En este Sprint se ha logrado implementar y documentar completamente la API REST de TocaAqui utilizando OpenAPI/Swagger. La API incluye endpoints para la gestión de eventos musicales, usuarios/autenticación, aplicaciones a eventos, invitaciones y pagos. Todos los endpoints están documentados con anotaciones Swagger y están disponibles tanto en desarrollo como en producción.
 
-## URL del Repositorio y Commits
+**URL del Repositorio y Commits**
 
 - **Repositorio:** `CODENINJAS.TocaAqui.API`
 - **Branch:** `feature/develop`
@@ -659,7 +659,7 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
   - Habilitación de Swagger en producción
   - Configuración de anotaciones SwaggerOperation
 
-## Tabla de Endpoints Documentados
+**Tabla de Endpoints Documentados**
 
 | Módulo | Endpoint | Verbo HTTP | Descripción | Parámetros | Autenticación |
 |--------|----------|------------|-------------|------------|---------------|
@@ -692,11 +692,11 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 | **Payments** | `/api/v1/payments/user/{userId}` | GET | Pagos por usuario | Path: userId (int), Query: userRole | No |
 | **Payments** | `/api/v1/payments/{id}/status` | PATCH | Actualizar estado pago | Path: id (int), Body: UpdatePaymentStatusResource | No |
 
-## Detalles de Endpoints por Módulo
+**Detalles de Endpoints por Módulo**
 
-### 1. Módulo IAM (Identity and Access Management)
+**1. Módulo IAM (Identity and Access Management)**
 
-#### POST `/api/v1/users/sign-up`
+**POST `/api/v1/users/sign-up`**
 **Descripción:** Registro de nuevo usuario en la plataforma
 
 **Request Body:**
@@ -720,7 +720,7 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 }
 ```
 
-#### POST `/api/v1/users/sign-in`
+**POST `/api/v1/users/sign-in`**
 **Descripción:** Inicio de sesión de usuario
 
 **Request Body:**
@@ -748,9 +748,9 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 }
 ```
 
-### 2. Módulo Events
+**2. Módulo Events**
 
-#### GET `/api/v1/events`
+**GET `/api/v1/events`**
 **Descripción:** Obtiene todos los eventos disponibles
 
 **Response (200):**
@@ -772,7 +772,7 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 ]
 ```
 
-#### POST `/api/v1/events`
+**POST `/api/v1/events`**
 **Descripción:** Crea un nuevo evento
 
 **Request Body:**
@@ -798,9 +798,9 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 }
 ```
 
-### 3. Módulo Payments
+**3. Módulo Payments**
 
-#### POST `/api/v1/payments`
+**POST `/api/v1/payments`**
 **Descripción:** Crea un nuevo pago
 
 **Request Body:**
@@ -835,7 +835,7 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 }
 ```
 
-#### PATCH `/api/v1/payments/{id}/status`
+**PATCH `/api/v1/payments/{id}/status`** 
 **Descripción:** Actualiza el estado de un pago
 
 **Request Body:**
@@ -846,7 +846,7 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 }
 ```
 
-## Códigos de Respuesta HTTP
+**Códigos de Respuesta HTTP**
 
 | Código | Descripción |
 |--------|-------------|
@@ -857,13 +857,13 @@ En este Sprint se ha logrado implementar y documentar completamente la API REST 
 | 404 | Not Found - Recurso no encontrado |
 | 500 | Internal Server Error - Error interno del servidor |
 
-## Configuración de Swagger
+**Configuración de Swagger**
 
 La documentación Swagger está disponible en:
 - **Desarrollo:** `https://localhost:7000/`
 - **Producción:** `http://tocaqui-platform.runasp.net/index.html/`
 
-### Configuración en Program.cs
+**Configuración en Program.cs**
 ```csharp
 // Swagger habilitado también en producción
 app.UseSwagger();
@@ -873,8 +873,7 @@ app.UseSwaggerUI(ui =>
     ui.RoutePrefix = string.Empty;
 });
 ```
-
-## Autenticación JWT
+**Autenticación JWT**
 
 Los endpoints marcados con "Sí" en autenticación requieren el header:
 ```
@@ -930,6 +929,29 @@ Para llevar a cabo los commits de nuestro Sprint, utilizamos las herramientas Ri
 
 ![Sprint Insight](../../assets/insight-tb2.png)
 - **URL del Board:** [Enlace a Jira](https://tocaqui.atlassian.net/jira/software/projects/KAN/list)
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4
+| Sprint #                        | Sprint 4                                                                                           |
+|---------------------------------|----------------------------------------------------------------------------------------------------|
+| Sprint Planning Background      |                                                                                                    |
+| Date                            | 2025-07-05                                                                                         |
+| Time                            | 04:00 PM                                                                                           |
+| Location                        | Google Meet (Reunión virtual)                                                                      |
+| Prepared By                     | Nelson Fabrizzio Pereira Vasquez                                                                   |
+| Attendees (to planning meeting) | Diego Ivan Cabrera Buitron / Juan Paul Llamccaya / Oscar Josué Antayhua Castillo / Nelson Fabrizzio Pereira Vasquez / Eddo Su Caletti |
+| Sprint 3 – Review Summary       | En el Sprint 3 se implementaron y desplegaron funcionalidades CRUD para Evaluaciones, IAM, Perfiles y Eventos en el backend. Se mejoró la estructura modular y se avanzó en la documentación de endpoints. El Product Owner destacó la correcta separación de capas y la priorización de endpoints de eventos. |
+| Sprint 3 – Retrospective Summary| El equipo valoró la organización modular y la mejora en la documentación, pero identificó la necesidad de fortalecer las pruebas automatizadas y la asignación anticipada de tareas. Se mantuvieron reuniones de sincronización frecuentes. |
+| Sprint Goal & User Stories      |                                                                                                    |
+| Sprint 4 Goal                   | El objetivo de este sprint es completar la documentación de la API REST utilizando Swagger/OpenAPI, implementar y validar los endpoints de pagos y eventos, mejorar la gestión de contratos y evaluaciones, y desplegar la base de datos en un servidor para que sea acsible desde cualquier maquina que requira hacer una cosulta. El sprint será exitoso cuando la base de datos esté correctamente desplegada, todos los endpoints estén documentados y funcionales, y se haya recibido feedback positivo en las pruebas internas. |
+| Sprint 4 Velocity               | 40 Story Points                                                                                    |
+| Sum of Story Points             | 38                                                                                                | 
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+
+
+
 
 ### 5.3 Validation Interviews
 #### 5.3.1 Diseño de entrevistas
