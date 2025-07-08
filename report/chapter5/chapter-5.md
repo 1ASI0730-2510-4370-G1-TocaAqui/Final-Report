@@ -943,7 +943,7 @@ Para llevar a cabo los commits de nuestro Sprint, utilizamos las herramientas Ri
 | Sprint 3 – Review Summary       | En el Sprint 3 se implementaron y desplegaron funcionalidades CRUD para Evaluaciones, IAM, Perfiles y Eventos en el backend. Se mejoró la estructura modular y se avanzó en la documentación de endpoints. El Product Owner destacó la correcta separación de capas y la priorización de endpoints de eventos. |
 | Sprint 3 – Retrospective Summary| El equipo valoró la organización modular y la mejora en la documentación, pero identificó la necesidad de fortalecer las pruebas automatizadas y la asignación anticipada de tareas. Se mantuvieron reuniones de sincronización frecuentes. |
 | Sprint Goal & User Stories      |                                                                                                    |
-| Sprint 4 Goal                   | El objetivo de este sprint es completar la documentación de la API REST utilizando Swagger/OpenAPI, implementar y validar los endpoints de pagos y eventos, mejorar la gestión de contratos y evaluaciones, y desplegar la base de datos en un servidor para que sea acsible desde cualquier maquina que requira hacer una cosulta. El sprint será exitoso cuando la base de datos esté correctamente desplegada, todos los endpoints estén documentados y funcionales, y se haya recibido feedback positivo en las pruebas internas. |
+| Sprint 4 Goal                   | El objetivo de este sprint es completar la documentación de la API REST utilizando Swagger/OpenAPI, implementar y validar los endpoints de pagos y eventos, mejorar la gestión de contratos y evaluaciones, realizar las correcciones correspondientes del sprint pasado y desplegar la base de datos en un servidor para que sea acsible desde cualquier maquina que requira hacer una cosulta. El sprint será exitoso cuando la base de datos esté correctamente desplegada, todos los endpoints estén documentados y funcionales, y se haya recibido feedback positivo en las pruebas internas. |
 | Sprint 4 Velocity               | 40 Story Points                                                                                    |
 | Sum of Story Points             | 38                                                                                                | 
 
@@ -967,6 +967,255 @@ En el Sprint 4, los principales aspectos considerados fueron:
 **Leyenda:**  
 L: Leader (Líder)  |  C: Collaborator (Colaborador)
 
+
+#### 5.2.4.3. Sprint Backlog 4.
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 1</strong> </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"> <strong>User Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US20</td>
+    <td rowspan="2">Evaluación post-show</td>
+    <td>UT-001</td>
+    <td>Entidad Evaluation</td>
+    <td>Crear clase aggregate `Evaluation` con todos sus campos y constructor</td>
+    <td rowspan="2">4</td>
+    <td rowspan="2">Oscar Antayhua</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>UT-002</td>
+    <td>Enums de evaluación</td>
+    <td>Crear enums `EEvaluationType` y `EEvaluationStatus`</td>
+  </tr>
+
+  <tr>
+    <td>US08</td>
+    <td>Dashboard de artista</td>
+    <td>UT-003</td>
+    <td>CommandService</td>
+    <td>Implementar `EvaluationCommandService` con método para crear evaluaciones</td>
+    <td>4</td>
+    <td>Oscar Antayhua</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US29</td>
+    <td>Calificaciones en panel</td>
+    <td>UT-004</td>
+    <td>QueryService</td>
+    <td>Implementar `EvaluationQueryService` para obtener evaluaciones y promedios</td>
+    <td>4</td>
+    <td>Oscar Antayhua</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US33</td>
+    <td>Visualización de pagos</td>
+    <td>UT-005</td>
+    <td>Repositorio Evaluation</td>
+    <td>Crear `EvaluationRepository` con persistencia simulada</td>
+    <td>4</td>
+    <td>Oscar Antayhua</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US10</td>
+    <td>Postulación a eventos</td>
+    <td>UT-006</td>
+    <td>Controlador Evaluations</td>
+    <td>Implementar `EvaluationsController` con endpoints GET y POST</td>
+    <td>4</td>
+    <td>Oscar Antayhua</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US14</td>
+    <td>Registro promotor/local</td>
+    <td>UT-007</td>
+    <td>DTO CreateEvaluation</td>
+    <td>Crear recurso REST de entrada `CreateEvaluationResource`</td>
+    <td>4</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US13</td>
+    <td>Historial de pagos</td>
+    <td>UT-008</td>
+    <td>DTO EvaluationResource</td>
+    <td>Crear recurso REST de salida `EvaluationResource`</td>
+    <td>4</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US35</td>
+    <td>Estado del contrato</td>
+    <td>UT-009</td>
+    <td>Assembler de evaluación</td>
+    <td>Crear `EvaluationResourceFromEntityAssembler` para mapear entidad a recurso</td>
+    <td>4</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US06</td>
+    <td>Selección de tipo de usuario</td>
+    <td>UT-010</td>
+    <td>AppDbContext configurado</td>
+    <td>Configurar `DbSet<Evaluation>` y conversiones JSON para checklist</td>
+    <td>4</td>
+    <td>Diego Cabrera</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">US17</td>
+    <td rowspan="2">Revisión de postulaciones</td>
+    <td>UT-011</td>
+    <td>Modificar controlador de invitaciones</td>
+    <td>Validar entidades reales y crear comando completo</td>
+    <td rowspan="2">8</td>
+    <td rowspan="2">Oscar Antayhua</td>
+    <td rowspan="2">Done</td>
+  </tr>
+  <tr>
+    <td>UT-012</td>
+    <td>Actualizar DTO de invitación</td>
+    <td>Incluir nombres de artista, promotor y evento</td>
+  </tr>
+
+  <tr>
+    <td>US15</td>
+    <td>Dashboard del local</td>
+    <td>UT-013</td>
+    <td>Assembler de invitaciones</td>
+    <td>Adaptar `InvitationResourceFromEntityAssembler` a nuevos campos</td>
+    <td>4</td>
+    <td>Diego Cabrera</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US32</td>
+    <td>Inicio de sesión</td>
+    <td>UT-015</td>
+    <td>Actualizar cadena de conexión</td>
+    <td>Modificar `appsettings.json` para usar base de datos Railway</td>
+    <td>4</td>
+    <td>Nelson Pereira</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+No hubierron cambios en el development a comparacaión del sprint 3.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Se realizó correctamente el despliegue de la base de Datos
+
+![Sprint 3](../../assets/4DB.png)
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+A continuación, se detalla la configuración para el despliegue de cada componente de la solución, especificando los pasos requeridos para que, partiendo de los repositorios de código fuente, se realice exitosamente la publicación de los productos digitales correspondientes, tales como la página de aterrizaje (Landing Page), los servicios web y las aplicaciones web del frontend.
+
+Despliegue del Web Service:
+
+Para el despliegue del Web Service, se utilizó la plataforma MonsterASP
+
+![Sprint 3](../../assets/D-1.png)
+
+1-. Primero debemos de registrarnos para hacer uso de la plataforma.
+
+![Sprint 3](../../assets/D-2.png)
+
+2-. Una vez ingresados creamos un nuevo website.
+
+![Sprint 3](../../assets/D-3.png)
+
+3-. Luego en el panel de control, nos dirigimos al apartado deploy y en WebDeploy Access lo colocamos en "Enable" y descargarmos el perfil de publicación
+
+![Sprint 3](../../assets/D-8.png)
+
+
+4-. Para utilizar el perfil debemos primero cargar nuestro proyecto dentro de Visual Studio, una vez cargado el proyecto, le damos click derecho sobre este y luego a "Publicar"
+
+![Sprint 3](../../assets/D-10.png)
+
+6-. Seleccionamos la opción de "Importar Pefil"
+
+![Sprint 3](../../assets/D-11.png)
+
+7-. Seleccionamos el perfil que descargamos en el panel de control de MonsterAsp"
+
+![Sprint 3](../../assets/D-12.png)
+
+8-. Con esto ya tenemos desplegado nuestro Web Service
+
+![Sprint 3](../../assets/D-14.png)
+
+Link del Web Service desplegado: http://tocaqui-platform.runasp.net/index.html
+
+
+Para el lado de la base de datos, utilizamos Railway para el despliegue del mismo y lo conectado a nuestro back-end desplegado en Monster-ASP
+
+![Sprint 3](../../assets/1-DB.png)
+
+![Sprint 3](../../assets/2DB.png)
+
+![Sprint 3](../../assets/3DB.png)
+
+![Sprint 3](../../assets/4DB.png)
+
+
+![Aplicacion](../../assets/deploy-app.png)
+
+Para el lado del Front-End utilizamos Vercel para el despliegue del mismo.
+
+- **Repositorio:** [Web Application](https://github.com/1ASI0730-2510-4370-G1-TocaAqui/Landing-Page)
+- **URL de producción:** [https://tocaaqui-frontend.vercel.app/](https://tocaaqui-frontend.vercel.app/)
+- **Branch desplegado:** `main`
+
+
+![Aplicacion](../../assets/Aplicación-dashboard.png)
+
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+![Sprint Insight](../../assets/insight-tb2.png)
+- **URL del Board:** [Enlace a Jira](https://tocaqui.atlassian.net/jira/software/projects/KAN/list)
 
 
 ### 5.3 Validation Interviews
