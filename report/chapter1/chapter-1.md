@@ -62,101 +62,174 @@ TocaAquí no solo conecta talento con oportunidades, sino que impulsa un cambio 
 
 El proceso Lean UX es una metodología ágil que revoluciona la forma en que se diseña y desarrolla productos digitales. En este punto, exploraremos los principios fundamentales de Lean UX y cómo se integran en el ciclo de desarrollo de productos. Desde la colaboración multidisciplinaria hasta la iteración rápida y la validación continua, descubriremos cómo este enfoque permite a los equipos crear productos centrados en el usuario de manera eficiente y efectiva.
 #### 1.2.2.1. Lean UX Problem Statements
-En un mercado cada vez más competitivo en la industria de eventos musicales, los músicos emergentes enfrentan dificultades para conectarse con promotores de eventos, mientras que los promotores a menudo no tienen acceso a un catálogo de talento confiable y diverso. Esta desconexión genera frustración y limita las oportunidades tanto para los músicos como para los promotores.
 
-TocaAquí es una plataforma web diseñada para abordar este desafío, facilitando la conexión entre músicos emergentes y promotores de eventos. A través de la plataforma, los músicos pueden postularse a eventos, gestionar sus contratos de forma digital, y recibir pagos seguros. Al mismo tiempo, los promotores pueden encontrar músicos adecuados para sus eventos y gestionar todo el proceso de contratación y pago de manera eficiente y transparente.
+### 1.2.2.1 Lean UX Problem Statements  
+#### **TocaAquí: Plataforma para la Contratación de Músicos Emergentes**
 
-La solución proporcionará un espacio seguro y automatizado para la contratación de músicos, mejorando la visibilidad de los artistas y optimizando la experiencia para los promotores de eventos.
+---
+
+#### **Descripción del Problema**
+
+En el competitivo mundo de la industria de eventos musicales, los **músicos emergentes** enfrentan grandes dificultades para acceder a oportunidades reales de contratación. La mayoría carece de visibilidad, redes de contacto y canales formales para conectar con **promotores de eventos** que buscan talento nuevo.  
+Por otro lado, los promotores suelen invertir demasiado tiempo en buscar músicos adecuados y muchas veces no tienen acceso a un **catálogo confiable y actualizado** de artistas.  
+Esta **desconexión** genera frustración, pérdida de oportunidades y procesos de contratación informales e ineficientes.
+
+🔗 [Informe IFPI sobre Industria Musical](https://www.ifpi.org/resources/)  
+🔗 [Estudio sobre Booking de Artistas Emergentes – Berklee Online](https://online.berklee.edu/)
+
+---
+
+#### **Solución Propuesta: TocaAquí**
+
+**TocaAquí** es una **plataforma web** que permite a músicos emergentes y promotores de eventos conectar de manera fácil, segura y estructurada.  
+A través de la plataforma, los músicos pueden **postularse a eventos**, firmar **contratos digitales**, recibir **pagos seguros** y construir su **reputación artística**.  
+Simultáneamente, los promotores pueden encontrar talento filtrado por género, estilo o ubicación, revisar perfiles artísticos verificados y **gestionar todo el proceso de contratación y pago de forma automatizada**.
+
+🔗 [Sofar Sounds – Comunidad musical global](https://www.sofarsounds.com/)  
+🔗 [Gigmor – Plataforma de contratación de músicos](https://www.gigmor.com/)  
+🔗 [Stripe – Pagos seguros](https://stripe.com)  
+🔗 [DocuSign – Contratos digitales](https://www.docusign.com/)
+
+---
+
+#### **Contexto del Sector y Evidencia**
+
+Según el estudio “Banda Sonora del Mercado Latino”, el 74% de los músicos independientes en América Latina reporta **dificultades para conseguir espacios donde tocar**, y más del 60% afirma que ha trabajado sin contrato o sin pago asegurado.  
+🔗 [Fuente: Latin Music Business Report, 2022](https://www.latinmusicreport.com)
+
+Los promotores de eventos en ciudades como Lima, Bogotá o Buenos Aires indican que les toma en promedio entre 5 y 7 días concretar la contratación de un artista emergente, en parte por la **falta de plataformas confiables**.  
+🔗 [Estudio: Gestión de Eventos Independientes, Universidad de Palermo](https://fido.palermo.edu/)
+
+---
+
+#### **Objetivos Esperados con TocaAquí**
+
+- **Reducir en un 40%** el tiempo promedio que toma encontrar y contratar músicos emergentes  
+  _(de 7 días a 3-4 días en promedio mediante contratación automatizada)_
+
+- **Aumentar en un 60%** la visibilidad de músicos independientes mediante perfiles públicos, reputación por estrellas y métricas de rendimiento
+
+- **Digitalizar el 100%** del proceso de contratación (registro, contrato, pago y evaluación)  
+  _(uso de Stripe + DocuSign + sistema de notificaciones)_
+
+- **Reducir en un 70% los casos de impago o incumplimiento**, gracias a los contratos digitales con pago seguro en escrow
+
+- **Consolidar una red activa de al menos 1.000 músicos verificados y 250 promotores en el primer año**
+
 
  #### 1.2.2.2. Lean UX Assumptions
   ### **Business Assumptions**
-Demanda del mercado: Se asume que existe una demanda creciente en el sector de eventos musicales en vivo, tanto por parte de músicos emergentes que buscan oportunidades de presentación como de espacios y promotores que requieren talentos confiables para dinamizar sus agendas.
+- **Demanda del mercado:**  
+  Se asume una creciente demanda en el sector de eventos musicales en vivo, impulsada por músicos emergentes que buscan oportunidades y espacios que requieren talentos confiables para dinamizar sus agendas.
 
-Transformación digital del sector: Se presupone que la industria de la música en vivo y eventos se beneficiará de la digitalización de procesos, mejorando la contratación, coordinación y pago de servicios.
+- **Transformación digital del sector:**  
+  Se presupone que la digitalización de procesos en la industria musical facilitará la contratación, coordinación y pagos, generando mejoras en eficiencia y profesionalismo.
 
-Valor diferencial en formalización: Se cree que la implementación de contratos digitales, sistemas de pagos  y evaluaciones post-evento aportará un valor agregado a la experiencia de usuario, diferenciando a TocaAquí en el mercado.
+- **Valor diferencial en formalización:**  
+  Se cree que herramientas como contratos digitales, pagos seguros y evaluaciones post-evento aportarán un valor agregado, diferenciando a *TocaAquí* de alternativas informales.
 
-Creciente uso de tecnologías: Se asume que tanto músicos como espacios disponen de la infraestructura tecnológica necesaria y tienen la disposición para adoptar soluciones digitales que faciliten sus procesos operativos.
+- **Creciente uso de tecnologías:**  
+  Se asume que músicos y promotores cuentan con infraestructura tecnológica suficiente y están dispuestos a adoptar plataformas digitales que optimicen sus operaciones.
 
+---
   ### **Business Outcomes Assumptions**
-Optimización de operaciones: Se espera que, al centralizar la búsqueda, contratación y coordinación de eventos musicales, los espacios y promotores logren una mayor eficiencia operativa, reduciendo tiempos y costos administrativos.
+- **Optimización de operaciones:**  
+  Al centralizar la búsqueda, contratación y coordinación de eventos, los espacios reducirán tiempos y costos administrativos, aumentando su eficiencia.
 
-Incremento en la rentabilidad: La formalización del proceso mediante herramientas digitales permitirá reducir los riesgos de cancelaciones, impagos y malentendidos, lo que se traducirá en mayores ingresos y menor pérdida económica para todas las partes involucradas.
+- **Incremento en la rentabilidad:**  
+  La digitalización del proceso disminuirá riesgos como cancelaciones o impagos, favoreciendo mayores ingresos y menor pérdida económica.
 
-Fidelización y crecimiento del ecosistema: Se asume que al ofrecer una experiencia confiable y profesional, la plataforma generará fidelidad tanto en músicos como en promotores, impulsando el crecimiento orgánico y la expansión a nuevos mercados.
+- **Fidelización y crecimiento del ecosistema:**  
+  Una experiencia profesional y confiable fomentará la lealtad de usuarios y facilitará el crecimiento orgánico en nuevas regiones o segmentos.
 
-Posicionamiento como referente: Se proyecta que TocaAquí se posicione como la solución líder en la contratación de eventos musicales, capturando una cuota relevante del mercado y diferenciándose frente a procesos informales existentes.
+- **Posicionamiento como referente:**  
+  Se proyecta que *TocaAquí* se consolide como líder en la contratación de eventos musicales en vivo, superando prácticas informales actuales.
 
+---
   ### **User Assumptions**
 
-**Músicos y bandas independientes**:
+#### **Músicos y bandas independientes**
 
-Se asume que buscan profesionalizar su carrera y aumentar su visibilidad, necesitando herramientas para gestionar presentaciones, coordinar logística y recibir pagos seguros.
+- Buscan profesionalizar su carrera y aumentar su visibilidad.  
+- Requieren herramientas para autogestionar presentaciones, logística y pagos.  
+- Valoran una plataforma con contratos digitales, evaluaciones y coordinación centralizada.
 
-Valoran el acceso a evaluaciones, contratos digitales y una plataforma centralizada que les permita gestionar sus oportunidades de manera autónoma.
+#### **Espacios y promotores (bares, discotecas, centros culturales)**
 
-**Espacios y promotores (bares, discotecas, centros culturales)**:
+- Necesitan un sistema confiable y eficiente para contratar talentos según criterios específicos (género, ubicación, disponibilidad).  
+- Buscan minimizar incertidumbre, riesgos financieros y optimizar la planificación de sus eventos.
 
-Se asume que requieren un método seguro y eficiente para encontrar talentos musicales acordes a sus necesidades, basado en criterios como ubicación, género musical y disponibilidad.
+#### **Capacidad tecnológica y disposición**
 
-Buscan reducir la incertidumbre en la contratación, optimizando la planificación de eventos y minimizando riesgos financieros y operativos.
+- Ambos segmentos tienen la capacidad y disposición para usar una plataforma digital que facilite su operatividad diaria.
 
-**Capacidad tecnológica y disposición**:
-
-Se presupone que ambos segmentos tienen la capacidad técnica para utilizar una plataforma online y están dispuestos a incorporar nuevas herramientas digitales en su rutina diaria para mejorar sus procesos de contratación y organización.
-
+---
   ### **User Outcomes Assumptions**
 
-**Para músicos y bandas:**
+#### **Para músicos y bandas**
 
-A través de la plataforma, se espera que aumente su visibilidad y la cantidad de oportunidades para presentarse, permitiéndoles gestionar de manera autónoma toda la logística de sus eventos.
+- Mayor visibilidad y acceso a nuevas oportunidades de presentación.  
+- Gestión autónoma y profesional de su carrera artística.  
+- Seguridad y confianza mediante pagos en escrow y contratos digitales.
 
-La integración de herramientas como la firma digital y el sistema de pagos en escrow contribuirá a una experiencia más segura y profesional, facilitando la toma de decisiones y la gestión de su carrera.
+#### **Para espacios y promotores**
 
-**Para espacios y promotores:**
+- Acceso ágil a talentos filtrados por criterios específicos.  
+- Planificación eficiente mediante agenda compartida y herramientas logísticas.  
+- Reducción de riesgos e incertidumbre en la contratación.
 
-Se prevé que la plataforma les permita encontrar y seleccionar talentos mediante filtros avanzados (por ubicación, tipo de música, disponibilidad), accediendo a portafolios y calificaciones que los ayuden a tomar decisiones informadas.
+#### **Resultados compartidos**
 
-La implementación de una agenda compartida y herramientas para la coordinación logística (rider técnico, horarios, etc.) generará una planificación de eventos más organizada y exitosa, reduciendo riesgos y optimizando sus recursos.
+- Evaluaciones post-evento promueven transparencia, retroalimentación y mejora continua.  
+- Reputación fortalecida en todo el ecosistema musical.
 
-**Resultados compartidos:**
-
-La transparencia y confiabilidad proporcionadas por el sistema de evaluaciones post-evento fomentarán la mejora continua y la retroalimentación, elevando la calidad del servicio ofrecido por ambas partes y fortaleciendo la reputación del ecosistema musical.
+---
   
 #### 1.2.2.3. Declaraciones de hipótesis de Lean UX
   
-Para la elaboración de los Hypothesis Statements se utilizó el formato Lean UX: [We believe that], [This will achieve] y [We will have demonstrated this when]
+Para la elaboración de las siguientes declaraciones de hipótesis, se utilizó el formato Lean UX:  
+**[Creemos que]**, **[Esto logrará]**, y **[Lo habremos demostrado cuando]**.
+
+---
 
 **Hipótesis 1: Simplificación del proceso de búsqueda**
 
-**Creemos que:** Si simplificamos el proceso de búsqueda y comparación de espacios y eventos musicales en la plataforma TocaAquí,
-**Sabremos que** esto logrará aumentar las contrataciones al facilitar la conexión directa entre músicos emergentes y promotores de eventos.
-**Cuando:** observemos un aumento del 25% en la cantidad de contratos firmados entre músicos y promotores en los primeros seis meses.
+**Creemos que** simplificar el proceso de búsqueda y comparación de espacios y eventos musicales en la plataforma TocaAquí  
+**Esto logrará** aumentar las contrataciones al facilitar la conexión directa entre músicos emergentes y promotores de eventos  
+**Lo habremos demostrado cuando** observemos un aumento del 25% en la cantidad de contratos firmados entre músicos y promotores en los primeros seis meses.
 
+---
 **Hipótesis 2: Promoción automatizada para mayor visibilidad**
 
-**Creemos que** Si integramos un módulo de promoción automatizada que incluye la difusión en redes sociales,
-**Sabremos que** esto aumentará la visibilidad de los músicos emergentes y, por fin, atraer un mayor número de solicitudes de contratación.
-**Cuando** se observe un aumento del 35% en la cantidad de visitas a los perfiles de músicos y en las postulaciones a eventos durante el primer año.
+**Creemos que** integrar un módulo de promoción automatizada que incluya difusión en redes sociales  
+**Esto logrará** aumentar la visibilidad de los músicos emergentes y atraer un mayor número de solicitudes de contratación  
+**Lo habremos demostrado cuando** se observe un aumento del 35% en las visitas a los perfiles de músicos y en las postulaciones a eventos durante el primer año.
 
+---
 **Hipótesis 3: Mejora en la coordinación logística**
 
-**Creemos que** Si incorporamos una herramienta de agenda compartida y validación de los requerimientos técnicos,
-**Sabremos que** mejorá la organización y puntualidad en la ejecución de los eventos musicales.
-**Cuando** las encuestas post-evento muestren un incremento del 20% en la satisfacción de los usuarios respecto a la coordinación logística.
+**Creemos que** incorporar una herramienta de agenda compartida y validación de requerimientos técnicos  
+**Esto logrará** mejorar la organización y puntualidad en la ejecución de los eventos musicales  
+**Lo habremos demostrado cuando** las encuestas post-evento muestren un incremento del 20% en la satisfacción de los usuarios respecto a la coordinación logística.
+
+---
+
 
 **Hipótesis 4: Retroalimentación y profesionalización**
 
-**Creemos que** Si implementamos un sistema de evaluaciones y retroalimentación post-evento,
-**Sabremos que** esto logrará elevar la calidad del servicio y fortalecer la profesionalización dentro del ecosistema de TocaAquí.
-**Cuando** las calificaciones promedio superen 4.0 sobre 5 y se evidencie un aumento del 30% en la recurrencia de contrataciones.
+**Creemos que** implementar un sistema de evaluaciones y retroalimentación post-evento  
+**Esto logrará** elevar la calidad del servicio y fortalecer la profesionalización dentro del ecosistema de TocaAquí  
+**Lo habremos demostrado cuando** las calificaciones promedio superen 4.0 sobre 5 y se evidencie un aumento del 30% en la recurrencia de contrataciones.
+
+---
 
 **Hipótesis 5: Seguridad en la contratación**
 
-**Creemos que** Si implementamos un sistema integrado para la firma digital de contratos y pagos seguros,
-**Sabremos que** esto logrará reducir significativamente los riesgos de impago y cancelaciones, generando mayor confianza entre los usuarios.
-**Cuando** se registre una disminución del 30% en casos de impagos y cancelaciones en los eventos organizados a través de la plataforma.
+**Creemos que** implementar un sistema integrado para la firma digital de contratos y pagos seguros  
+**Esto logrará** reducir significativamente los riesgos de impago y cancelaciones, generando mayor confianza entre los usuarios  
+**Lo habremos demostrado cuando** se registre una disminución del 30% en casos de impagos y cancelaciones en los eventos organizados a través de la plataforma.
 
+---
 
 
 #### 1.2.2.4. Lean UX Canvas
@@ -166,8 +239,7 @@ El Lean UX Canvas es una herramienta  que permite a los equipos plasmar y visual
 ## 1.3. Segmentos objetivo.
 Los segmentos objetivo son grupos específicos de usuarios a los que se dirige un producto o servicio en particular.
 Los segmentos objetivos identificados se definirán en la siguiente tabla:
-| Segmento Objetivo                                                                                                                 | Características Demográficas                                                                                                                                               | Información estadística de sustento                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Artistas                                              | Edad: 18 a 40 años. <br/> Género: Varía (hombres, mujeres y disidencias). <br/> Ubicación: Zonas urbanas con movimiento cultural/artístico. <br/> Tecnología: Uso frecuente de redes sociales y plataformas digitales. <br/> Nivel educativo: Variable, pero con interés en formación musical o autodidactismo. |Según el estudio “Industrias culturales y creativas en América Latina” de la CEPAL (2021), más del 60% de los músicos independientes enfrentan barreras para acceder a espacios donde presentarse, siendo la visibilidad uno de los retos principales para consolidar una carrera artística sostenible.                                                                                                                                                        |
-| Locales.                                 | Tipo de negocio: Pequeños y medianos bares, discotecas y locales de entretenimiento. <br/> Ubicación: Zonas con alta actividad nocturna o turística. <br/> Interés: Renovar su cartelera, atraer público nuevo, y automatizar procesos de contratación. |De acuerdo con PromPerú (2023), el sector de entretenimiento nocturno representa el 1.8% del PBI en sectores urbanos clave. Un estudio realizado en el mismo año revela que el 72% de los bares busca incorporar artistas en vivo como estrategia para aumentar sus ventas, pero enfrentan desafíos en encontrar propuestas confiables y adecuadas a su perfil.                                                                                                                      |
-                                                      
+| Segmento Objetivo | Características Demográficas | Información estadística de sustento |
+|-------------------|------------------------------|-------------------------------------|
+| **Artistas** | Edad: 18 a 40 años.<br/>Género: Varía (hombres, mujeres y disidencias).<br/>Ubicación: Zonas urbanas con movimiento cultural/artístico.<br/>Tecnología: Uso frecuente de redes sociales y plataformas digitales.<br/>Nivel educativo: Variable, pero con interés en formación musical o autodidactismo. | Según el estudio del Banco Interamericano de Desarrollo (BID) "Brechas de género en las industrias culturales y creativas" (2024), las mujeres representan solo el 31.1% del empleo en el sector creativo en países como Argentina, Colombia, México y Perú, y enfrentan barreras significativas para acceder a oportunidades laborales y posiciones de liderazgo. [Ver fuente](https://publications.iadb.org/es/brechas-de-genero-en-las-industrias-culturales-y-creativas) |
+| **Locales** | Tipo de negocio: Pequeños y medianos bares, discotecas y locales de entretenimiento.<br/>Ubicación: Zonas con alta actividad nocturna o turística.<br/>Interés: Renovar su cartelera, atraer público nuevo, y automatizar procesos de contratación. | De acuerdo con PromPerú (2023), el sector de entretenimiento nocturno representa el 1.8% del PBI en sectores urbanos clave. Un estudio realizado en el mismo año revela que el 72% de los bares busca incorporar artistas en vivo como estrategia para aumentar sus ventas, pero enfrentan desafíos en encontrar propuestas confiables y adecuadas a su perfil. [Ver fuente](https://www.promperu.gob.pe/) |

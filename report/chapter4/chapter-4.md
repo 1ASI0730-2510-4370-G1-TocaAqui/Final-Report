@@ -327,6 +327,8 @@ Los Wireflows se utilizan principalmente en el diseño UX o por sus siglas, expe
 
 ![Diagramaflujo](/assets/Diagramaflujo.png)
 
+[Ver diseño en el Figma](https://www.figma.com/design/AjVj0voSeYy8l8zlp8r2qw/WebApp-TocaAqu%C3%AD?node-id=6-5&t=XKJsUX7ZY7xft6LO-1)
+
 ### 4.4.3. Web Applications Mock-ups.
 
 En esta sección se muestran los mock-ups realizados para nuestro Web Application.
@@ -403,72 +405,49 @@ Pagos artista
 
 ![Pagos_Artista_Mock_(1)](/assets/Pagos%20Artista%20Mock%20(1).png)
 
-Contrato Digital
-
-![Contrato_Digital_Mock](/assets/Contrato%20Digital%20Mock.png)
-
-![Contrato_Digital_Mock_(1)](/assets/Contrato%20Digital%20Mock%20(1).png)
-
-![Contrato_Digital_Mock_(2)](/assets/Contrato%20Digital%20Mock%20(2).png)
 
 Rider Tecnico/Logistico
 
-![Rider_Tecnico/Logistico_Mock](/assets/Logistico%20Mock.png)
+![Rider(1)](/assets/Rider(1).png)
 
-![Rider_Tecnico/Logistico_Mock_(1)](/assets/Logistico%20Mock%20(1).png)
+![Rider(2)](/assets/Rider(2).png)
 
-![Rider_Tecnico/Logistico_Mock_(2)](/assets/Logistico%20Mock%20(2).png)
+![Rider(3)](/assets/Rider(3).png)
 
-![Rider_Tecnico/Logistico_Mock_(3)](/assets/Logistico%20Mock%20(3).png)
+![Rider(4)](/assets/Rider(4).png)
 
+![Rider(5)](/assets/Rider(5).png)
+
+![Rider(6)](/assets/Rider(6).png)
+
+![Rider(7)](/assets/Rider(7).png)
+
+![Rider(8)](/assets/Rider(8).png)
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
-Logeo del promotor a la pagina
 
-![Logeo_Promotor](/assets/Logeo_Promotor.jpeg)
+![Login_Registro](/assets/Login_y_Registro.png)
 
-Logeo del artista a la pagina
+![Artiss_Dashboard_Agenda_Pago_Profiel](/assets/Artists_Dashboard_Agenda_Pago_Profiel.png)
 
-![Logeo_Artista](/assets/Logeo_Artista.jpeg)
+![Rider](/assets/Rider.png)
 
-Evaluacion del promotor
+![Evaluacion](/assets/Evaluacion.png)
 
-![Evaluacion_promotor](/assets/Evaluación%20del%20promotor.jpeg)
+![Productor_Dashboard_Profiel_Promocion](/assets/Productor_Dashboard_Profiel_Promocion_de_evento.png)
 
-Evaluacion del artista
+![Pago_promotor](/assets/Pago_Promotor.png)
 
-![Evaluacion_artista](/assets/Evaluacion%20del%20artista.jpeg)
 
-Creacion de las entradas 
- 
-![Creacion_de_entradas](/assets/Creacion%20de%20entradas.jpeg)
+![Promocion_de_evento_Evaluacion](/assets/Promocion_de_eventos_Evaluacion.png)
 
-![Creacion_de_entradas_(1)](/assets/Creacion%20de%20entradas%20(1).jpeg)
 
-Visualización del pago del artista parte del promotor
+![Completo](/assets/Completo.png)
 
-![Visualizacion_del_pago_del_artista_parate_del_promotor](/assets/Visualización%20del%20pago%20del%20artista.jpeg)
+Figma Abajo:
 
-Realización de pagos del artista
-
-![Pago_artista](/assets/Pago_artista.jpeg)
-
-Realización del contrato
-
-![Contrato_Digital](/assets/Contrato_digital.jpeg)
-
-Revisión técnica y logistica
-
-![Revicion_del_rider](/assets/Revisión_tecnica.jpeg)
-
-Parte completa del Artista
-
-![Completo_Artista](/assets/Proceso%20completo%20Artista.png)
-
-Parte completa del Promotor
-
-![Completo_Promotor](/assets/Parte%20completa%20promotor.png)
+[Ver diseño en el Figma](https://www.figma.com/design/vOE8lxDrsjdFPbZlpCYQ6s/User-Flow-Diagram?node-id=0-1&t=0Zo3M5RPBfFGn8mL-1)
 
 ## 4.5. Web Applications Prototyping.
 
