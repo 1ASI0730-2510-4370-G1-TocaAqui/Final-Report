@@ -955,6 +955,7 @@ En el Sprint 4, los principales aspectos considerados fueron:
 - **Payments (Pagos):** Implementación y validación de endpoints de pagos.
 - **Shared (Infraestructura):** Infraestructura compartida, despliegue de base de datos y soporte transversal.
 
+#### 5.2.4.2. Aspect Leaders and Collaborators
 
 | Team Member (Last Name, First Name)      | GitHub Username         | IAM (Auth & Users) | Events (Gestión de eventos) | Payments (Pagos) | Shared (Infraestructura) |
 |------------------------------------------|------------------------|--------------------|----------------------------|------------------|-------------------------|
